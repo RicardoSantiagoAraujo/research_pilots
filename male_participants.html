@@ -72,7 +72,7 @@
 
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
-  /* CONSENT *//*
+  /* CONSENT */
  
    // Function to check if a subject has given consent to participate.
    var check_consent = function (elem) {
@@ -96,7 +96,7 @@
    timeline.push(Consent);
  
  
- *///////////////////////////////////////////////////////////////////////////////////////////////
+ ///////////////////////////////////////////////////////////////////////////////////////////////
 
   //Turn on fullscreen mode
   timeline.push({
@@ -105,7 +105,7 @@
   });
 
   /* QUESTIONNAIRE */
-  /*
+  
       // Function to check if a subject has given answered all questions.
    /*
       var check_questionnaire = function(elem) {
@@ -127,7 +127,7 @@
      else { return true
      }
      }
-  
+  */
   
     /* THIS IS NOT WORKING 
     var = dropdowns["nationalities","growin","livein","ethnicity","english","education","orientation","relationship","living","onlinedating"]
@@ -142,13 +142,13 @@
       else { return true
       }
       }
-      
+      */
   
     //Here's a function that will return true if at least one radio button is selected somewhere on the page. Again, this might need to be tweaked depending on your specific HTML.
-    function atLeastOneRadio() {
+   /* function atLeastOneRadio() {
         return ($('input[type=radio]:checked').size() > 0);
     }
-    
+    */
   
     
     //Questionnaire
@@ -162,14 +162,14 @@
      timeline.push(Questionnaire);
    
   
-  */
+
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
   /* INSTRUCTIONS */
-  /*
+  
  
   //Instructions1 - Alternative version
-   
+   /*
    var Instructions1 = {
      type: 'instructions',
      pages: ['<h3> Instructions </h3> In this section of the study, you will be shown pairs of female portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: <br> <img src="img/MALE.png" height= 80 ></img> <br> Click next to begin.',
@@ -177,7 +177,7 @@
      show_clickable_nav: true
    }
    timeline.push(Instructions1)
- 
+ */
  //Instructions1
    var Instructions1 = {
      type: 'html-button-response',
@@ -230,14 +230,14 @@
    timeline.push(demo2);
  
   //Instructions2 - alternative version
-  /*var Instructions2 = {
+ /*var Instructions2 = {
      type: 'instructions',
      pages: ['<h4> Demonstration finished </h4> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, use your arrow keys as shown below: <br> <img src="img/arrows.png" height= 160 ></img> <br> Click next to begin experiment.',
      ],
      show_clickable_nav: true
    }
    timeline.push(Instructions2)
- 
+ */
    //Instructions2
    var Instructions2 = {
      type: 'html-button-response',
@@ -247,7 +247,7 @@
    timeline.push(Instructions2)
  
  
-   *////////////////////////////////////////////////////////////////////////////////////////////////
+   ////////////////////////////////////////////////////////////////////////////////////////////////
 
   /* MATE CHOICE TRIALS */
 
@@ -329,7 +329,7 @@
       },
     }
     timeline.push(mate_choice_trial);
-  
+  */
   //Eye colour pick
     var Eyecolour2 = {
       type: 'html-button-response',
