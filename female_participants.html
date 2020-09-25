@@ -50,6 +50,11 @@
     .picpair {
       width: 98%
     }
+
+    .Focus {
+      line-height: 200%
+    }
+    
   </style>
 
 </head>
@@ -97,6 +102,7 @@
 
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
+ /* QUESTIONNAIRE */
 
   var personalData = {};
 
@@ -141,6 +147,14 @@
     type: "fullscreen",
     fullscreen_mode: true
   });
+
+  //Focus
+  var Focus = {
+    type: 'html-button-response',
+    stimulus: '<h1 class="Focus"> Please ensure that you are sitting comfortably in a quiet environment, and will not be disturbed while doing the experiment.<br> We would like to have your full attention. </h1>',
+    choices: ['Click here for the instructions'],
+  }
+  timeline.push(Focus)
 
 
   //Instructions1
@@ -187,7 +201,7 @@
   //Instructions2
   var Instructions2 = {
     type: 'html-button-response',
-    stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, use your arrow keys as shown below:  </p> <img src="img/arrows.png" height= 160 ></img> <br><br>',
+    stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, <strong>use the arrow keys on your keyboard</strong> as shown below:  </p> <img src="img/keyboard.png" height= 160 ></img><br><img src="img/arrows.png" height= 160 ></img> <br><br>',
     choices: ['Click here to begin experiment!'],
   }
   timeline.push(Instructions2)
@@ -235,7 +249,7 @@
       {
         type: 'html-keyboard-response',
         stimulus: jsPsych.timelineVariable('pair'),
-        prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p></div>",
+        prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='vid/countdown.mp4' height = 65 autoplay = true> </div>",
         choices: [37, 39],
         data: {
           pairId: jsPsych.timelineVariable('id'),
