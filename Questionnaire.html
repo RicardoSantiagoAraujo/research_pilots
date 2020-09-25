@@ -783,7 +783,7 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="ethnicity" id="ethnicity" class="custom-select dropdown required other-dropdown">
+        <select name="ethnicity" id="ethnicity" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="asian">Asian</option>
           <option value="black">Black</option>
@@ -792,7 +792,14 @@
           <option value="Other">Other (Please specify)</option>
         </select>
       </div>
-      <input type="text" name="ethnicity" id="ethnicity-other" style='display:none;' />
+
+      <div class="input-group mb-3 invisible" id="ethnicity-other">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Specify</span>
+        </div>
+        <input type="text" class="form-control optional" placeholder="Ethnicity" aria-label="ethnicity" aria-describedby="basic-addon1">
+      </div>
+
 
       <p>How would you describe your english language level? </p>
 
@@ -826,7 +833,7 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="education" id="education" class="custom-select dropdown required other-dropdown">
+        <select name="education" id="education" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="edu0">No schooling completed</option>
           <option value="edu1">Preschool/nursery school to primary/elementary school</option>
@@ -842,7 +849,13 @@
           <option value="Other">Other (Please specify)</option>
         </select>
       </div>
-      <input type="text" name="education" id="education-other" style='display:none;' />
+
+      <div class="input-group mb-3 invisible" id="education-other">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Specify</span>
+        </div>
+        <input type="text" class="form-control optional" placeholder="Education" aria-label="education" aria-describedby="basic-addon1">
+      </div>
 
       <p>How physically attractive do you think you are, relative to others ?</p>
       <div class="btn-group btn-group-toggle" data-toggle="buttons">
@@ -924,7 +937,7 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="orientation" id="orientation" class="custom-select dropdown required other-dropdown">
+        <select name="orientation" id="orientation" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="heterosexual">Heterosexual</option>
           <option value="homosexual">Homosexual</option>
@@ -933,7 +946,13 @@
           <option value="Other">Other (Please specify)</option>
         </select>
       </div>
-      <input type="text" name="orientation" id="orientation-other" style='display:none;' />
+
+      <div class="input-group mb-3 invisible" id="orientation-other">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Specify</span>
+        </div>
+        <input type="text" class="form-control optional" placeholder="Orientation" aria-label="orientation" aria-describedby="basic-addon1">
+      </div>
 
       <p>What is your current relationship status? </p>
 
@@ -951,7 +970,7 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="relationship" id="relationship" class="custom-select dropdown required other-dropdown">
+        <select name="relationship" id="relationship" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="rel1">Single and never married</option>
           <option value="rel2">In a casual relationship</option>
@@ -965,7 +984,13 @@
           <option value="Other">Other (Please specify)</option>
         </select>
       </div>
-      <input type="text" name="relationship" id="relationship-other" style='display:none;' />
+
+      <div class="input-group mb-3 invisible" id="relationship-other">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Specify</span>
+        </div>
+        <input type="text" class="form-control optional" placeholder="Relationship" aria-label="relationship" aria-describedby="basic-addon1">
+      </div>
 
       <p>Which of the following best describes your current living arrangements? </p>
 
@@ -973,7 +998,7 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="living" id="living" class="custom-select dropdown required other-dropdown">
+        <select name="living" id="living" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="liv1">Living alone</option>
           <option value="liv2">Living with partner</option>
@@ -986,7 +1011,13 @@
           <option value="Other">Other (Please specify)</option>
         </select>
       </div>
-      <input type="text" name="living" id="living-other" style='display:none;' />
+
+      <div class="input-group mb-3 invisible" id="living-other">
+        <div class="input-group-prepend">
+          <span class="input-group-text">Specify</span>
+        </div>
+        <input type="text" class="form-control optional" placeholder="Living" aria-label="living" aria-describedby="basic-addon1">
+      </div>
 
       <p>Have you ever used an online dating service before? </p>
 
@@ -999,7 +1030,7 @@
           <option value="">Please select one</option>
           <option value="yes">Yes</option>
           <option value="no">No</option>
-          <option value="private">Would rather not tell</option>
+          <option value="private">Would rather not say</option>
         </select>
       </div>
 

@@ -116,6 +116,7 @@
 
   var checkQuestionnaire = function (elem) {
     const form = Array.from(document.getElementsByClassName('required'));
+    const formOptional = Array.from(document.getElementsByClassName('optional'));
     const atractiveRadio = Array.from(document.getElementsByClassName('likert-atractive'));
     const iqRadio = Array.from(document.getElementsByClassName('likert-iq'));
     let valid = true;
@@ -125,6 +126,12 @@
         personalData[element.id] = element.value;
       } else {
         valid = false;
+      }
+    });
+
+    formOptional.forEach(element => {
+      if (element.value) {
+        personalData[element.id] = element.value;
       }
     });
 
@@ -138,12 +145,28 @@
     return valid;
   };
 
+  function loadQuestionnaire(event) {
+    const value = event.target.value;
+    const id = event.target.id;
+
+    const element = document.getElementById(`${id}-other`);
+    element.classList.remove("invisible");
+    element.classList.remove("visible");
+
+    if (value === "Other") {
+      element.classList.add("visible");
+    } else {
+      element.classList.add("invisible");
+    }
+  }
+
   //Questionnaire
   var Questionnaire = {
     type: 'external-html',
     url: "QuestionnaireF.html", //load the external file
     cont_btn: "questionnaireCompleted",
-    check_fn: checkQuestionnaire
+    check_fn: checkQuestionnaire,
+    on_load: loadQuestionnaire
   };
 
   timeline.push(Questionnaire);
