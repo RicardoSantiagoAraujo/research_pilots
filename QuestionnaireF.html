@@ -990,7 +990,6 @@
 
       <p>Have you ever used an online dating service before? </p>
 
-<<<<<<< Updated upstream
       <div class="input-group mb-3">
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
@@ -1003,21 +1002,66 @@
         </select>
       </div>
 
-  </div>
+      <p>Are you currently using a hormonal contraceptive? </p>
 
-  <button type="button" id="questionnaireCompleted" class="btn btn-primary submit">Finish Questionnaire </button>
-=======
-      <select name="onlinedating" id="onlinedating" class="dropdown required">
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+        </div>
+        <select name="contraceptive" id="contraceptive" class="custom-select dropdown required">
+        <option value="">Please select one</option>
+        <option value="no">I am not currently using an hormonal contraceptive</option>
+        <option value="CP">Combined pill</option>
+        <option value="POP">Progestogen-only pill</option>
+        <option value="CSP">Contraceptive skin path</option>
+        <option value="CIn">Contraceptive injection</option>
+        <option value="CIm">Contraceptive implant</option>
+        <option value="VG">Vaginal ring</option>
+        <option value="IUS">Intrauterine system (IUS)</option>
+        <option value="private">Would rather not say</option>
+        <option value="Other">Other (Please specify)</option>
+        </select>
+      </div>
+      
+  
+
+      <p>How many days ago did your last period of menstruation (menstrual bleeding) start? </p>
+
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+        </div>
+      <select name="menstruation" id="menstruation" class="custom-select dropdown required">
+        <option value="">Please select one</option>
+        <option value="3d">Within the last three days</option>
+        <option value="1w">Within the last week</option>
+        <option value="2w">Between one and two weeks ago</option>
+        <option value="3w">Betweem two and three weeks ago</option>
+        <option value="over3w4">Over three weeks ago</option>
+        <option value="over1m">Over one month ago</option>
+        <option value="forget">I do not remember</option>
+        <option value="private">Would rather not say</option>
+        <option value="Other">Other (please specify)</option>
+      </select>
+    </div>
+
+      <p>Are you currently pregnant? </p>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+        </div>
+      <select name="pregnancy" id="pregnancy" class="custom-select dropdown required">
         <option value="">Please select one</option>
         <option value="yes">Yes</option>
         <option value="no">No</option>
         <option value="private">Would rather not say</option>
       </select>
+    </div>
+
 
   </div>
-<br>
-  <button type="button" id="questionnaireCompleted">Finish Questionnaire </button>
->>>>>>> Stashed changes
+
+  <button type="button" id="questionnaireCompleted" class="btn btn-primary submit">Finish Questionnaire </button>
   </form>
   <br>
   <br>
