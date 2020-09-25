@@ -73,29 +73,29 @@
 
   /* CONSENT */
 
-   // Function to check if a subject has given consent to participate.
-   var check_consent = function (elem) {
-     if (document.getElementById('consent_checkbox').checked) {
-       return true;
-     }
-     else {
-       alert("If you wish to participate, you must check the box next to the statement 'I agree to take part in this study.'");
-       return false;
-     }
-     return false;
-   };
+  // Function to check if a subject has given consent to participate.
+  var check_consent = function (elem) {
+    if (document.getElementById('consent_checkbox').checked) {
+      return true;
+    }
+    else {
+      alert("If you wish to participate, you must check the box next to the statement 'I agree to take part in this study.'");
+      return false;
+    }
+    return false;
+  };
 
-   //Consent form
-   var Consent = {
-     type: 'external-html',
-     url: "Consent.html", //load the external file
-     cont_btn: "start",
-     check_fn: check_consent
-   };
-   timeline.push(Consent);
+  //Consent form
+  var Consent = {
+    type: 'external-html',
+    url: "Consent.html", //load the external file
+    cont_btn: "start",
+    check_fn: check_consent
+  };
+  timeline.push(Consent);
 
 
- ///////////////////////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////////////////////////////////////
 
   //Turn on fullscreen mode
   timeline.push({
@@ -103,69 +103,95 @@
     fullscreen_mode: true
   });
 
-    //Questionnaire
-     var Questionnaire = {
-       type: 'external-html',
-       url:  "Questionnaire.html", //load the external file
-     cont_btn: "questionnaireCompleted",
-     //check_fn: check_questionnaire
-     };
+  var personalData = {};
 
-     timeline.push(Questionnaire);
+  var checkQuestionnaire = function (elem) {
+    const form = Array.from(document.getElementsByClassName('required'));
+    const atractiveRadio = Array.from(document.getElementsByClassName('likert-atractive'));
+    const iqRadio = Array.from(document.getElementsByClassName('likert-iq'));
+    let valid = true;
+
+    form.forEach(element => {
+      if (element.value) {
+        personalData[element.id] = element.value;
+      } else {
+        valid = false;
+      }
+    });
+
+    personalData.iq = iqRadio.find(element => element.checked).value;
+    personalData.atractive = atractiveRadio.find(element => element.checked).value;
+
+    if (!valid) {
+      alert("Please fill every field!")
+    }
+
+    return valid;
+  };
+
+  //Questionnaire
+  var Questionnaire = {
+    type: 'external-html',
+    url: "Questionnaire.html", //load the external file
+    cont_btn: "questionnaireCompleted",
+    check_fn: checkQuestionnaire
+  };
+
+  timeline.push(Questionnaire);
 
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
- //Instructions1
-   var Instructions1 = {
-     type: 'html-button-response',
-     stimulus: '<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of female portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="img/MALE.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>',
-     choices: ['Click here to watch a demonstration video'],
-   }
-   timeline.push(Instructions1)
+  //Instructions1
+  var Instructions1 = {
+    type: 'html-button-response',
+    stimulus: '<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of female portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="img/MALE.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>',
+    choices: ['Click here to watch a demonstration video'],
+  }
+  timeline.push(Instructions1)
 
- // Demo videos
- var demo1 = {
-     type: 'video-button-response',
-     sources: ['vid/Demonstrative example - Part 1and2.mp4'],
-     choices: ['Next'],
-     button_html: '<button class="jspsych-btn">%choice%!</button>',
-     margin_vertical: '10px',
-     margin_horizontal: '8px',
-     prompt: 'You will be shown two female portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
-     width: 850,
-     autoplay: true,
-     rate: 1.5,
+  // Demo videos
+  var demo1 = {
+    type: 'video-button-response',
+    sources: ['vid/Demonstrative example - Part 1and2.mp4'],
+    choices: ['Next'],
+    button_html: '<button class="jspsych-btn">%choice%!</button>',
+    margin_vertical: '10px',
+    margin_horizontal: '8px',
+    prompt: 'You will be shown two female portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
+    width: 850,
+    autoplay: true,
+    rate: 1.5,
 
-     response_ends_trial: true
-   }
- timeline.push(demo1);
+    response_ends_trial: true
+  }
+  timeline.push(demo1);
 
-   var demo2 = {
-     type: 'video-button-response',
-     sources: ['vid/Demonstrative example - Part 3.mp4'],
-     choices: ['Next'],
-     button_html: '<button class="jspsych-btn">%choice%!</button>',
-     margin_vertical: '10px',
-     margin_horizontal: '8px',
-     prompt: 'You will be shown two female portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
-     width: 850,
-     autoplay: true,
-     rate: 1.5,
+  var demo2 = {
+    type: 'video-button-response',
+    sources: ['vid/Demonstrative example - Part 3.mp4'],
+    choices: ['Next'],
+    button_html: '<button class="jspsych-btn">%choice%!</button>',
+    margin_vertical: '10px',
+    margin_horizontal: '8px',
+    prompt: 'You will be shown two female portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
+    width: 850,
+    autoplay: true,
+    rate: 1.5,
 
-     response_ends_trial: true
-   }
-   timeline.push(demo2);
+    response_ends_trial: true
+  }
+  timeline.push(demo2);
 
-   //Instructions2
-   var Instructions2 = {
-     type: 'html-button-response',
-     stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, use your arrow keys as shown below:  </p> <img src="img/arrows.png" height= 160 ></img> <br><br>',
-     choices: ['Click here to begin experiment!'],
-   }
-   timeline.push(Instructions2)
+  //Instructions2
+  var Instructions2 = {
+    type: 'html-button-response',
+    stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, use your arrow keys as shown below:  </p> <img src="img/arrows.png" height= 160 ></img> <br><br>',
+    choices: ['Click here to begin experiment!'],
+  }
+  timeline.push(Instructions2)
 
 
-   ////////////////////////////////////////////////////////////////////////////////////////////////
+  ////////////////////////////////////////////////////////////////////////////////////////////////
 
   /* MATE CHOICE TRIALS */
 
@@ -229,43 +255,43 @@
   timeline.push(mate_choice_trial);
 
   //Eye colour pick
-    var Eyecolour2 = {
-      type: 'html-button-response',
-      stimulus: 'The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="img/bonus/3.51-WM-015.jpg" height= 400 ></img> <br>',
-      prompt: "What is this individual's eye colour, <strong> based on the text above the picture</strong>?",
-      data: {
-        trial: 'eye-colour-attention-check',
-        imgId: '3.51-WM-015'
-      },
-      choices: ['Brown', 'Blue'],
-    }
-    timeline.push(Eyecolour2)
+  var Eyecolour2 = {
+    type: 'html-button-response',
+    stimulus: 'The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="img/bonus/3.51-WM-015.jpg" height= 400 ></img> <br>',
+    prompt: "What is this individual's eye colour, <strong> based on the text above the picture</strong>?",
+    data: {
+      trial: 'eye-colour-attention-check',
+      imgId: '3.51-WM-015'
+    },
+    choices: ['Brown', 'Blue'],
+  }
+  timeline.push(Eyecolour2)
 
-    //Age pick
-    var Age2 = {
-      type: 'image-slider-response',
-      stimulus: 'img/bonus/3.51-WM-015.jpg',
-      labels: ['10', '|' , '20','|' , '30','|' , '40','|' , '50','|' , '60'],
-      min : 0,
-      max : 60,
-      start: 30,
-      data: {
-        trial: 'age-estimate',
-        imgId: '3.51-WM-015'
-      },
-      require_movement: true,
-      stimulus_height: 400,
-      prompt: "Estimate his age using the slider above. <br>"
+  //Age pick
+  var Age2 = {
+    type: 'image-slider-response',
+    stimulus: 'img/bonus/3.51-WM-015.jpg',
+    labels: ['10', '|', '20', '|', '30', '|', '40', '|', '50', '|', '60'],
+    min: 0,
+    max: 60,
+    start: 30,
+    data: {
+      trial: 'age-estimate',
+      imgId: '3.51-WM-015'
+    },
+    require_movement: true,
+    stimulus_height: 400,
+    prompt: "Estimate his age using the slider above. <br>"
   };
-    timeline.push(Age2)
+  timeline.push(Age2)
 
-    //End of trials message
-    var TestEnd = {
-      type: 'html-button-response',
-      stimulus: '<h4> This is the end of this task. </h4> ',
-      choices: ['Continue to next section'],
-    }
-    timeline.push(TestEnd)
+  //End of trials message
+  var TestEnd = {
+    type: 'html-button-response',
+    stimulus: '<h4> This is the end of this task. </h4> ',
+    choices: ['Continue to next section'],
+  }
+  timeline.push(TestEnd)
 
   ///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -311,9 +337,9 @@
     }
   });
 
-  function handleData(){
+  function handleData() {
     const questionnaireData = JSON.parse(jsPsych.data.get().json());
-    const data = { data: questionnaireData };
+    const data = { data: questionnaireData, personalData };
 
     axios.post("http://127.0.0.1:3000/questionnaires/add", data);
   }
