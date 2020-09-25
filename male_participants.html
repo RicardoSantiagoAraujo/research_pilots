@@ -468,10 +468,12 @@
   });
 
 function handleData(){
-  const data = { data: jsPsych.data };
-  
+  const questionnaireData = JSON.parse(jsPsych.data.get().json());
+  const data = { data: questionnaireData };
+
   axios.post("http://127.0.0.1:3000/questionnaires/add", data);
 }
+
 </script>
 
 </html>
