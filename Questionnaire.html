@@ -23,7 +23,19 @@
       list-style-type: none;
     }
   </style>
+  <script type="text/javascript">
+    const selectElement = document.querySelector('#living');
 
+    selectElement.addEventListener('change', (event) => {
+      debugger;
+      var element = document.getElementById('living');
+      if (val == "" || val == "Other") {
+        element.style.display = 'block';
+      } else {
+        element.style.display = 'none';
+      }
+    });
+  </script>
 </head>
 
 <body>
@@ -904,17 +916,7 @@
 
       <p>Which of the following best describes your current living arrangements? </p>
 
-      <script type="text/javascript">
-        function CheckLiving(val) {
-          var element = document.getElementById('living');
-          if (val == "" || val == "Other")
-            element.style.display = 'block';
-          else
-            element.style.display = 'none';
-        }
-      </script>
-
-      <select name="living" id="living" class="dropdown required" onchange='CheckLiving(this.value);'>
+      <select name="living" id="living" class="dropdown required">
         <option value="">Please select one</option>
         <option value="liv1">Living alone</option>
         <option value="liv2">Living with partner</option>
