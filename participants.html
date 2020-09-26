@@ -28,7 +28,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"
     integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
     crossorigin="anonymous"></script>
-  <script src="data/pairsF.js"></script>
+  <script src="data/gender.js"></script>
+  <script src="data/pairs.js"></script>
   <link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
   </link>
 
@@ -163,10 +164,10 @@
   //Questionnaire
   var Questionnaire = {
     type: 'external-html',
-    url: "QuestionnaireF.html", //load the external file
+    url: "questionnaire.html", //load the external file
     cont_btn: "questionnaireCompleted",
     check_fn: checkQuestionnaire,
-    on_load: loadQuestionnaire
+    execute_script: true
   };
 
   timeline.push(Questionnaire);
@@ -187,11 +188,10 @@
   }
   timeline.push(Focus)
 
-
   //Instructions1
   var Instructions1 = {
     type: 'html-button-response',
-    stimulus: '<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of male portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="img/FEMALE.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>',
+    stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of ${oppositeGender} portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="img/${gender.toUpperCase()}.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>`,
     choices: ['Click here to watch a demonstration video'],
   }
   timeline.push(Instructions1)
@@ -199,12 +199,12 @@
   // Demo videos
   var demo1 = {
     type: 'video-button-response',
-    sources: ['vid/Demonstrative example - Part 1and2F.mp4'],
+    sources: [`vid/Demonstrative example - Part 1and2${genderKey}.mp4`],
     choices: ['Next'],
     button_html: '<button class="jspsych-btn">%choice%!</button>',
     margin_vertical: '10px',
     margin_horizontal: '8px',
-    prompt: 'You will be shown two male portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
+    prompt: `You will be shown two ${oppositeGender} portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.`,
     width: 850,
     autoplay: true,
     rate: 1.5,
@@ -215,12 +215,12 @@
 
   var demo2 = {
     type: 'video-button-response',
-    sources: ['vid/Demonstrative example - Part 3F.mp4'],
+    sources: ['vid/Demonstrative example - Part 3${genderKey}.mp4'],
     choices: ['Next'],
     button_html: '<button class="jspsych-btn">%choice%!</button>',
     margin_vertical: '10px',
     margin_horizontal: '8px',
-    prompt: 'You will be shown two male portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.',
+    prompt: `You will be shown two ${oppositeGender} portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.`,
     width: 850,
     autoplay: true,
     rate: 1.5,
@@ -245,12 +245,12 @@
   //Eye colour pick
   var Eyecolour1 = {
     type: 'image-button-response',
-    stimulus: 'img/bonus/3.54-WF-246.jpg',
+    stimulus: `img/bonus/${eyeColour}.jpg`,
     prompt: "What is this individual's eye colour?",
     stimulus_height: 400,
     data: {
       trial: 'eye-colour-question',
-      imgId: '3.54-WF-246'
+      imgId: `${eyeColour}`
     },
     choices: ['Brown', 'Blue']
   }
@@ -259,14 +259,14 @@
   //Age pick
   var Age1 = {
     type: 'image-slider-response',
-    stimulus: 'img/bonus/3.54-WF-246.jpg',
+    stimulus: `img/bonus/${age}.jpg`,
     labels: ['10', '|', '20', '|', '30', '|', '40', '|', '50', '|', '60'],
     min: 0,
     max: 60,
     start: 30,
     data: {
       trial: 'age-estimate',
-      imgId: '3.54-WF-246'
+      imgId: `${age}`
     },
     require_movement: true,
     stimulus_height: 400,
@@ -304,11 +304,11 @@
   //Eye colour pick
   var Eyecolour2 = {
     type: 'html-button-response',
-    stimulus: 'The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="img/bonus/3.32-WF-038.jpg" height= 400 ></img> <br>',
+    stimulus: `The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="img/bonus/${attentionCheck}.jpg" height= 400 ></img> <br>`,
     prompt: "What is this individual's eye colour, <strong> based on the text above the picture</strong>?",
     data: {
       trial: 'eye-colour-attention-check',
-      imgId: '3.32-WF-038'
+      imgId: `${attentionCheck}`
     },
     choices: ['Brown', 'Blue'],
   }
@@ -317,14 +317,14 @@
   //Age pick
   var Age2 = {
     type: 'image-slider-response',
-    stimulus: 'img/bonus/3.32-WF-038.jpg',
+    stimulus: `img/bonus/${secondAge}.jpg`,
     labels: ['10', '|', '20', '|', '30', '|', '40', '|', '50', '|', '60'],
     min: 0,
     max: 60,
     start: 30,
     data: {
       trial: 'age-estimate',
-      imgId: '3.32-WF-038'
+      imgId: `${secondAge}`
     },
     require_movement: true,
     stimulus_height: 400,
@@ -364,7 +364,7 @@
   //Explanation
   var Debriefing = {
     type: 'html-button-response',
-    stimulus: " <h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of male faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <strong> ricardo.santiago-araujo@univ-tlse3.fr </strong> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>",
+    stimulus: `<h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of ${oppositeGender} faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <strong> ricardo.santiago-araujo@univ-tlse3.fr </strong> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>`,
     choices: ['Click here to finish']
   }
   timeline.push(Debriefing);
@@ -392,7 +392,7 @@
 
   function handleData() {
     const questionnaireData = JSON.parse(jsPsych.data.get().json());
-    const data = { data: questionnaireData, personalData, userGender: 'female' };
+    const data = { data: questionnaireData, personalData, userGender: gender };
 
     axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add", data);
   }

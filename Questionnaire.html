@@ -24,6 +24,14 @@
       font-size: 1.4rem;
       font-weight: 700;
     }
+
+    .invisible {
+      height: 0;
+    }
+
+    .no-top-margin {
+      margin-top: -3rem;
+    }
   </style>
 </head>
 
@@ -49,8 +57,9 @@
 
     <form id="questionnaire-form">
       <p>How old are you? </p>
-      I am <input type="number" placeholder="write here" id="age" class="required" name="age" min="10" max="1000000"> years old.
-<br><br><br>
+      I am <input type="number" placeholder="write here" id="age" class="required" name="age" min="10" max="120">
+      years old.
+      <br><br><br>
       <p>What nationality are you? </p>
       <div class="input-group mb-3">
         <div class="input-group-prepend">
@@ -783,7 +792,8 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="ethnicity" id="ethnicity" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
+        <select name="ethnicity" id="ethnicity" class="custom-select dropdown required
+          onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="asian">Asian</option>
           <option value="black">Black</option>
@@ -797,18 +807,14 @@
         <div class="input-group-prepend">
           <span class="input-group-text">Specify</span>
         </div>
-        <input
-          type="text"
-          class="form-control optional"
-          placeholder="Ethnicity"
-          aria-label="ethnicity"
+        <input type="text" class="form-control optional" placeholder="Ethnicity" aria-label="ethnicity"
           id="ethnicityOther"">
       </div>
 
 
       <p>How would you describe your english language level? </p>
 
-      <div class="input-group mb-3">
+      <div class=" input-group mb-3">
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
@@ -838,7 +844,8 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="education" id="education" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
+        <select name="education" id="education" class="custom-select dropdown required
+          onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="edu0">No schooling completed</option>
           <option value="edu1">Preschool/nursery school to primary/elementary school</option>
@@ -859,16 +866,12 @@
         <div class="input-group-prepend">
           <span class="input-group-text">Specify</span>
         </div>
-        <input
-          type="text"
-          class="form-control optional"
-          placeholder="Education"
-          aria-label="education"
+        <input type="text" class="form-control optional" placeholder="Education" aria-label="education"
           id="educationOther"">
       </div>
 
       <p>How physically attractive do you think you are, relative to others ?</p>
-      <div class="btn-group btn-group-toggle" data-toggle="buttons">
+      <div class=" btn-group btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-secondary active">
           <input type="radio" class="likert-atractive" name="attractive" autocomplete="off" value="1" checked /> 1
         </label>
@@ -947,7 +950,8 @@
         <div class="input-group-prepend">
           <label class="input-group-text" for="inputGroupSelect01">Options</label>
         </div>
-        <select name="orientation" id="orientation" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
+        <select name="orientation" id="orientation" class="custom-select dropdown required
+          onchange="loadQuestionnaire(event)">
           <option value="">Please select one</option>
           <option value="heterosexual">Heterosexual</option>
           <option value="homosexual">Homosexual</option>
@@ -961,128 +965,186 @@
         <div class="input-group-prepend">
           <span class="input-group-text">Specify</span>
         </div>
-        <input
-          type="text"
-          class="form-control optional"
-          placeholder="Orientation"
-          aria-label="orientation"
+        <input type="text" class="form-control optional" placeholder="Orientation" aria-label="orientation"
           id="orientationOther"">
       </div>
 
       <p>What is your current relationship status? </p>
 
-      <script type="text/javascript">
+      <script type=" text/javascript">
         function CheckRelationship(val) {
-          var element = document.getElementById('relationship');
-          if (val == "" || val == "Other")
-            element.style.display = 'block';
-          else
-            element.style.display = 'none';
+        var element = document.getElementById('relationship');
+        if (val == "" || val == "Other")
+        element.style.display = 'block';
+        else
+        element.style.display = 'none';
         }
-      </script>
+        </script>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+          </div>
+          <select name="relationship" id="relationship" class="custom-select dropdown required
+            onchange="loadQuestionnaire(event)">
+            <option value="">Please select one</option>
+            <option value="rel1">Single and never married</option>
+            <option value="rel2">In a casual relationship</option>
+            <option value="rel3">In a serious and committed relationship</option>
+            <option value="rel4">Unmarried but cohabiting</option>
+            <option value="rel5">Married</option>
+            <option value="rel6">Widowed</option>
+            <option value="rel7">Divorced</option>
+            <option value="rel8">Separated</option>
+            <option value="private">Would rather not say</option>
+            <option value="Other">Other (Please specify)</option>
+          </select>
         </div>
-        <select name="relationship" id="relationship" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
-          <option value="">Please select one</option>
-          <option value="rel1">Single and never married</option>
-          <option value="rel2">In a casual relationship</option>
-          <option value="rel3">In a serious and committed relationship</option>
-          <option value="rel4">Unmarried but cohabiting</option>
-          <option value="rel5">Married</option>
-          <option value="rel6">Widowed</option>
-          <option value="rel7">Divorced</option>
-          <option value="rel8">Separated</option>
-          <option value="private">Would rather not say</option>
-          <option value="Other">Other (Please specify)</option>
-        </select>
-      </div>
 
-      <div class="input-group mb-3 invisible" id="relationship-other">
-        <div class="input-group-prepend">
-          <span class="input-group-text">Specify</span>
-        </div>
-        <input
-          type="text"
-          class="form-control optional"
-          placeholder="Relationship"
-          aria-label="relationship"
-          id="relationshipOther"">
+        <div class="input-group mb-3 invisible" id="relationship-other">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Specify</span>
+          </div>
+          <input type="text" class="form-control optional" placeholder="Relationship" aria-label="relationship"
+            id="relationshipOther"">
       </div>
 
       <p>Which of the following best describes your current living arrangements? </p>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+      <div class=" input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+          </div>
+          <select name="living" id="living" class="custom-select dropdown required
+            onchange="loadQuestionnaire(event)">
+            <option value="">Please select one</option>
+            <option value="liv1">Living alone</option>
+            <option value="liv2">Living with partner</option>
+            <option value="liv3">Living with spouse</option>
+            <option value="liv4">Living with children</option>
+            <option value="liv5">Living with spouse and children</option>
+            <option value="liv6">Living with parents</option>
+            <option value="liv7">Living with friends</option>
+            <option value="private">Would rather not say</option>
+            <option value="Other">Other (Please specify)</option>
+          </select>
         </div>
-        <select name="living" id="living" class="custom-select dropdown required other-dropdown" onchange="loadQuestionnaire(event)">
-          <option value="">Please select one</option>
-          <option value="liv1">Living alone</option>
-          <option value="liv2">Living with partner</option>
-          <option value="liv3">Living with spouse</option>
-          <option value="liv4">Living with children</option>
-          <option value="liv5">Living with spouse and children</option>
-          <option value="liv6">Living with parents</option>
-          <option value="liv7">Living with friends</option>
-          <option value="private">Would rather not say</option>
-          <option value="Other">Other (Please specify)</option>
-        </select>
-      </div>
 
-      <div class="input-group mb-3 invisible" id="living-other">
-        <div class="input-group-prepend">
-          <span class="input-group-text">Specify</span>
-        </div>
-        <input
-          type="text"
-          class="form-control optional"
-          placeholder="Living"
-          aria-label="living"
-          id="livingOther"">
+        <div class="input-group mb-3 invisible" id="living-other">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Specify</span>
+          </div>
+          <input type="text" class="form-control optional" placeholder="Living" aria-label="living" id="livingOther"">
       </div>
 
       <p>Have you ever used an online dating service before? </p>
 
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <label class="input-group-text" for="inputGroupSelect01">Options</label>
+      <div class=" input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+          </div>
+          <select name="onlinedating" id="onlinedating" class="custom-select dropdown required">
+            <option value="">Please select one</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="private">Would rather not tell</option>
+          </select>
         </div>
-        <select name="onlinedating" id="onlinedating" class="custom-select dropdown required">
-          <option value="">Please select one</option>
-          <option value="yes">Yes</option>
-          <option value="no">No</option>
-          <option value="private">Would rather not say</option>
-        </select>
+
+        <p class="invisible female-specific">Are you currently using a hormonal contraceptive? </p>
+
+        <div class="input-group mb-3 invisible female-specific">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Options</label>
+          </div>
+          <select name="contraceptive" id="contraceptive" class="custom-select dropdown"
+            onchange="loadQuestionnaire(event)">
+            <option value="">Please select one</option>
+            <option value="no">I am not currently using an hormonal contraceptive</option>
+            <option value="CP">Combined pill</option>
+            <option value="POP">Progestogen-only pill</option>
+            <option value="CSP">Contraceptive skin path</option>
+            <option value="CIn">Contraceptive injection</option>
+            <option value="CIm">Contraceptive implant</option>
+            <option value="VG">Vaginal ring</option>
+            <option value="IUS">Intrauterine system (IUS)</option>
+            <option value="private">Would rather not say</option>
+            <option value="Other">Other (Please specify)</option>
+          </select>
+        </div>
+
+        <div class="input-group mb-3 invisible" id="contraceptive-other">
+          <div class="input-group-prepend">
+            <span class="input-group-text">Specify</span>
+          </div>
+          <input type="text" class="form-control optional" placeholder="Contraceptive" aria-label="contraceptive"
+            id="contraceptiveOther"">
       </div>
 
-  </div>
+        <p class=" invisible female-specific">How many days ago did your last period of menstruation (menstrual
+          bleeding) start? </p>
 
-  <button type="button" id="questionnaireCompleted" class="btn btn-primary submit">Finish Questionnaire </button>
-  </form>
-  <br>
-  <br>
-  <br>
-  <script type="text/javascript">
-    const otherElements = Array.from(document.getElementsByClassName('other-dropdown'));
+          <div class="input-group mb-3 invisible female-specific">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Options</label>
+            </div>
+            <select name="menstruation" id="menstruation" class="custom-select dropdown"
+              onchange="loadQuestionnaire(event)">
+              <option value="">Please select one</option>
+              <option value="3d">Within the last three days</option>
+              <option value="1w">Within the last week</option>
+              <option value="2w">Between one and two weeks ago</option>
+              <option value="3w">Betweem two and three weeks ago</option>
+              <option value="over3w4">Over three weeks ago</option>
+              <option value="over1m">Over one month ago</option>
+              <option value="forget">I do not remember</option>
+              <option value="private">Would rather not say</option>
+              <option value="Other">Other (please specify)</option>
+            </select>
+          </div>
 
-    otherElements.forEach(otherElement => {
-      otherElement.addEventListener('change', (event) => {
-        const value = event.target.value;
-        const id = event.target.id;
+          <div class="input-group mb-3 invisible" id="menstruation-other">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Specify</span>
+            </div>
+            <input type="text" class="form-control optional" placeholder="Menstruation" aria-label="menstruation"
+              id="menstruationOther"">
+          </div>
 
-        const element = document.getElementById(`${id}-other`);
+            <p class=" invisible female-specific">Are you currently pregnant? </p>
+            <div class="input-group mb-3 invisible female-specific">
+              <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect01">Options</label>
+              </div>
+              <select name="pregnancy" id="pregnancy" class="custom-select dropdown ">
+                <option value="">Please select one</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="private">Would rather not say</option>
+              </select>
+            </div>
+          </div>
 
-        if (value === "Other") {
-          element.style.display = 'block';
-        } else {
-          element.style.display = 'none';
-        }
-      });
-    });
-  </script>
+          <button type="button" id="questionnaireCompleted" class="btn btn-primary submit">Finish Questionnaire
+          </button>
+    </form>
+    <br>
+    <br>
+    <br>
 </body>
+<script>
+  if (gender === FEMALE) {
+    const form = Array.from(document.getElementsByClassName('female-specific'));
+    document.querySelector('#contraceptive').classList.add('required');
+    document.querySelector('#menstruation').classList.add('required');
+    document.querySelector('#pregnancy').classList.add('required');
+
+    form.forEach(element => {
+      element.classList.remove("invisible");
+    });
+  } else {
+    document.querySelector('#questionnaireCompleted').classList.add('no-top-margin');
+  }
+</script>
 
 </html>
