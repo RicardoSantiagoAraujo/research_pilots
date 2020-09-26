@@ -2,7 +2,6 @@ const urlParams = new URLSearchParams(window.location.search);
 const FEMALE = 'female';
 const MALE = 'male';
 
-
 const gender = urlParams.get('gender');
 const oppositeGender = gender === FEMALE ? MALE : FEMALE;
 const genderKey = gender === FEMALE ? 'F' : '';
