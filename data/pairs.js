@@ -5004,7 +5004,7 @@ const retifiedPairs = [
     ]
 ]
 
-for (let index = 0; index <= selectedNumber; index++) {
+for (let index = 0; index < selectedNumber; index++) {
     const randomLength = retifiedPairs.sampleNumber();
 
     const randomPair = retifiedPairs[randomLength].sample();
