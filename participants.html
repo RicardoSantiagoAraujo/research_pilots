@@ -220,7 +220,7 @@
 		button_html: '<button class="jspsych-btn">%choice%!</button>',
 		margin_vertical: '10px',
 		margin_horizontal: '8px',
-		prompt: `You will be shown two ${oppositeGender} portraits in our dating platform, side by side. Votes from the users are loaded above the pictures.`,
+		prompt: `To pick your preferred picture, use the <strong>left and right arrow keys</strong> on your keyboard. You only have <strong>15 seconds</strong> to vote and a countdown clock will be displayed on the screen.`,
 		width: 850,
 		autoplay: true,
 		rate: 1.5,
@@ -280,7 +280,7 @@
 			{
 				type: 'html-keyboard-response',
 				stimulus: jsPsych.timelineVariable('pair'),
-				prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='vid/countdown.mp4' height = 65 autoplay = true> </div>",
+				prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
 				choices: [37, 39],
 				data: {
 					pairId: jsPsych.timelineVariable('id'),
@@ -288,7 +288,7 @@
 					rightRate: jsPsych.timelineVariable('right'),
 					trial: 'mate-choice'
 				},
-				trial_duration: 10000,
+				trial_duration: 15000,
 			}
 		],
 		timeline_variables: pairs,
@@ -381,6 +381,19 @@
 		},
 	};
 	timeline.push(Feedback);
+
+	//Exit fullscreen
+	timeline.push({
+		type: "fullscreen",
+		fullscreen_mode: false,
+		message: "Thank you for your feedback. You can now close this window."
+	});
+	
+	//The End
+	timeline.push({
+  type: 'html-keyboard-response',
+  stimulus: 'Thank you for your feedback. You can now close this window.'
+});
 
 	/* start the experiment */
 	jsPsych.init({

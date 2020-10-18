@@ -790,8 +790,8 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Ethnicity" aria-label="ethnicity"
-						id="ethnicityOther"">
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="ethnicity"
+						id="ethnicityOther">
 				</div>
 				<p>How would you describe your english language level? </p>
 				<div class=" input-group mb-3">
@@ -843,7 +843,7 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Education" aria-label="education"
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="education"
 						id="educationOther"">
 				</div>
 				<p>How physically attractive do you think you are, relative to others ?</p>
@@ -903,6 +903,7 @@
 					are not obliged to answer any of these as there is a “Would rather not say" option for each one.</strong>
 				</p>
 				<br>
+
 				<p>Which of the following sexual orientations best describes you? </p>
 				<script type="text/javascript">
 					function CheckOrientation(val) {
@@ -931,17 +932,18 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Orientation" aria-label="orientation"
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="orientation"
 						id="orientationOther"">
 				</div>
+
 				<p>What is your current relationship status? </p>
-				<script type=" text/javascript">
+				<script type="text/javascript">
 					function CheckRelationship(val) {
-					var element = document.getElementById('relationship');
-					if (val == "" || val == "Other")
-					element.style.display = 'block';
-					else
-					element.style.display = 'none';
+					  var element = document.getElementById('relationship');
+					  if (val == "" || val == "Other")
+					    element.style.display = 'block';
+					  else
+					    element.style.display = 'none';
 					}
 				</script>
 				<div class="input-group mb-3">
@@ -967,9 +969,10 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Relationship" aria-label="relationship"
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="relationship"
 						id="relationshipOther"">
 				</div>
+
 				<p>Which of the following best describes your current living arrangements? </p>
 				<div class=" input-group mb-3">
 					<div class="input-group-prepend">
@@ -989,12 +992,15 @@
 					<option value="Other">Other (Please specify)</option>
 					</select>
 				</div>
+				
 				<div class="input-group mb-3 invisible" id="living-other">
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Living" aria-label="living" id="livingOther"">
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="living"
+						id="livingOther">
 				</div>
+
 				<p>Have you ever used an online dating service before? </p>
 				<div class=" input-group mb-3">
 					<div class="input-group-prepend">
@@ -1007,6 +1013,7 @@
 						<option value="private">Would rather not tell</option>
 					</select>
 				</div>
+
 				<p class="invisible female-specific">Are you currently using a hormonal contraceptive? </p>
 				<div class="input-group mb-3 invisible female-specific">
 					<div class="input-group-prepend">
@@ -1031,9 +1038,10 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Contraceptive" aria-label="contraceptive"
-						id="contraceptiveOther"">
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="contraceptive"
+						id="contraceptiveOther">
 				</div>
+
 				<p class=" invisible female-specific">How many days ago did your last period of menstruation (menstrual
 					bleeding) start?
 				</p>
@@ -1052,16 +1060,17 @@
 						<option value="over1m">Over one month ago</option>
 						<option value="forget">I do not remember</option>
 						<option value="private">Would rather not say</option>
-						<option value="Other">Other (please specify)</option>
+						<option value="Other">Other (Please specify)</option>
 					</select>
 				</div>
 				<div class="input-group mb-3 invisible" id="menstruation-other">
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
 					</div>
-					<input type="text" class="form-control optional" placeholder="Menstruation" aria-label="menstruation"
-						id="menstruationOther"">
+					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="menstruation"
+						id="menstruationOther">
 				</div>
+
 				<p class=" invisible female-specific">Are you currently pregnant? </p>
 				<div class="input-group mb-3 invisible female-specific">
 					<div class="input-group-prepend">
