@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Ratio estimation</title>
+	<script src="jspsych-6.1.0/jspsych.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-image-button-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-fullscreen.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-survey-multi-select.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-video-button-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-image-slider-response.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"
+		integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
+		crossorigin="anonymous"></script>
+	<script src="data/gender.js"></script>
+	<script src="data/pairs.js"></script>
+	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
+	</link>
+
+	
+	<style>
+		.leftallign {
+			text-align: justify
+		}
+
+		.Focus {
+			line-height: 200%
+		}
+	</style>
+
+</head>
+
+<body></body>
+<script>
+
+	//create timeline
+	var timeline = [];
+
+	// generate a random subject ID with 15 characters
+	var subject_id = jsPsych.randomization.randomID(15);
+
+	// record the subject ID in the jsPsych data
+	// this adds a property called 'subject'  to every trial
+	jsPsych.data.addProperties({
+		subject: subject_id,
+	});
+
+	///////////////////////////////////////////////////////////////////////////////////////////////
+
+	//Turn on fullscreen mode
+	timeline.push({
+		type: "fullscreen",
+		fullscreen_mode: true
+	});
+
+	//Focus
+	var Focus = {
+		type: 'html-button-response',
+		stimulus: '<h1 class="Focus"> Please ensure that you are sitting comfortably in a quiet environment, and will not be disturbed while doing the experiment.<br> We would like to have your full attention. </h1>',
+		choices: ['Click here for the instructions'],
+	}
+	timeline.push(Focus)
+
+	//Instructions1
+	var Instructions1 = {
+		type: 'html-button-response',
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of pink and green dots. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
+		choices: ['Click here to begin experiment!'],
+	}
+	timeline.push(Instructions1)
+
+
+
+
+	////////////////////////////////////////////////////////////////////////////////////////////////
+
+	/* RATIO ESTIMATION TRIALS */
+
+	// Ratio Estimation Trials
+	var ratio_estimation_trial = {
+		timeline: [
+			{
+				type: 'image-slider-response',
+				stimulus: jsPsych.timelineVariable('ratio'),
+				//prompt: "<p><strong> Use the slider above to estimate the percentage of green dots  </strong> </p> <video src='vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
+				prompt: "<strong> Use the slider above to estimate the percentage of green dots </strong><br>",
+				labels: ['0%', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100%'],
+				stimulus_height: null ,
+				slider_width: 1000,
+				min: 0,
+				max: 100,
+				start: 50,
+				trial_duration: 15000,
+				button_label: "Continue"
+			}
+		],
+		timeline_variables: [
+			 { ratio: 'img/ratio estimation/Rplot 1 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 2 .jpg'},		
+			 { ratio: 'img/ratio estimation/Rplot 3 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 4 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 5 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 6 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 7 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 8 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 9 .jpg'},
+			 { ratio: 'img/ratio estimation/Rplot 10 .jpg'},
+			]
+	}
+	timeline.push(ratio_estimation_trial);
+
+
+	//End of trials message
+	var TestEnd = {
+		type: 'html-button-response',
+		stimulus: '<h4> This is the end of this task. </h4> ',
+		choices: ['Continue to next section'],
+	}
+	timeline.push(TestEnd)
+
+	///////////////////////////////////////////////////////////////////////////////////////////////
+
+	
+
+	//Exit fullscreen
+	timeline.push({
+		type: "fullscreen",
+		fullscreen_mode: false,
+		message: "Thank you for your feedback. You can now close this window."
+	});
+	
+	//The End
+	timeline.push({
+  type: 'html-keyboard-response',
+  stimulus: 'Thank you for your feedback. You can now close this window.'
+});
+
+	/* start the experiment */
+	jsPsych.init({
+		timeline: timeline,
+		on_finish: function () {
+			handleData();
+		}
+	});
+
+	function handleData() {
+		const questionnaireData = JSON.parse(jsPsych.data.get().json());
+		const data = { data: questionnaireData, personalData, userGender: gender };
+
+		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add", data);
+	}
+</script>
+
+</html>
