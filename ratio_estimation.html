@@ -30,7 +30,7 @@
 		integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
 		crossorigin="anonymous"></script>
 	<script src="data/gender.js"></script>
-	<script src="data/pairs.js"></script>
+	<script src="data/ratioplots.js"></script>
 	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
 	</link>
 
@@ -46,6 +46,10 @@
 
 		.greendot {
 			color: #00CC00
+		}
+
+		.reddot {
+			color: red
 		}
 
 		#estimation {
@@ -92,7 +96,7 @@
 	//Instructions1
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of pink and green dots. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of red and green dots. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
 		choices: ['Click here to begin experiment!'],
 	}
 	timeline.push(Instructions1)
@@ -108,30 +112,24 @@
 		timeline: [
 			{
 				type: 'html-slider-response',
-				stimulus: jsPsych.timelineVariable('ratio'),
+				stimulus: jsPsych.timelineVariable('ratioplot'),
 				//prompt: "<video src='vid/countdown15s.mp4' height = 65 autoplay = true></vid>",
 				labels: ['0%', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100%'],
 				stimulus_height: null ,
-				slider_width: 1000,
+				//slider_width: 1000,
 				min: 0,
 				max: 100,
 				start: 50,
 				trial_duration: 15000,
-				button_label: "Continue"
+				button_label: "Continue",
+				data: {
+					trial: 'ratio-estimation',
+					plotID:jsPsych.timelineVariable('plotID'),
+					colorAsked:jsPsych.timelineVariable('colorAsked')
+					},
 			}
 		],
-		timeline_variables: [
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 1 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height= 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 2 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },		
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 3 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 4 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 5 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 6 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 7 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 8 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 9 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 10 .jpg' width= 35%></img> <br>  <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
-		],
+		timeline_variables: ratioplots,
 		randomize_order: true
 	}
 	timeline.push(ratio_estimation_trial);
@@ -165,14 +163,29 @@
   stimulus: 'Thank you for your feedback. You can now close this window.'
 });
 
+
+
 	/* start the experiment */
+	
+    jsPsych.init({
+      timeline: timeline,
+      on_finish: function() {
+        jsPsych.data.displayData();
+      }
+	});
+	
+
+
+	/* start the experiment */
+	/*
 	jsPsych.init({
 		timeline: timeline,
 		on_finish: function () {
 			handleData();
 		}
-	});
-
+	}); 
+	*/
+	
 	function handleData() {
 		const questionnaireData = JSON.parse(jsPsych.data.get().json());
 		const data = { data: questionnaireData, personalData, userGender: gender };
