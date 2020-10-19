@@ -16,6 +16,7 @@
 	<script src="jspsych-6.1.0/plugins/jspsych-video-button-response.js"></script>
 	<script src="jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
 	<script src="jspsych-6.1.0/plugins/jspsych-image-slider-response.js"></script>
+	<script src="jspsych-6.1.0/plugins/jspsych-html-slider-response.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -42,6 +43,17 @@
 		.Focus {
 			line-height: 200%
 		}
+
+		.greendot {
+			color: #00CC00
+		}
+
+		#estimation {
+			margin:0;
+			padding:0
+			}
+
+
 	</style>
 
 </head>
@@ -91,15 +103,13 @@
 	////////////////////////////////////////////////////////////////////////////////////////////////
 
 	/* RATIO ESTIMATION TRIALS */
-
 	// Ratio Estimation Trials
 	var ratio_estimation_trial = {
 		timeline: [
 			{
-				type: 'image-slider-response',
+				type: 'html-slider-response',
 				stimulus: jsPsych.timelineVariable('ratio'),
-				//prompt: "<p><strong> Use the slider above to estimate the percentage of green dots  </strong> </p> <video src='vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
-				prompt: "<strong> Use the slider above to estimate the percentage of green dots </strong><br>",
+				//prompt: "<video src='vid/countdown15s.mp4' height = 65 autoplay = true></vid>",
 				labels: ['0%', '5', '10', '15', '20', '25', '30', '35', '40', '45', '50', '55', '60', '65', '70', '75', '80', '85', '90', '95', '100%'],
 				stimulus_height: null ,
 				slider_width: 1000,
@@ -111,20 +121,24 @@
 			}
 		],
 		timeline_variables: [
-			 { ratio: 'img/ratio estimation/Rplot 1 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 2 .jpg'},		
-			 { ratio: 'img/ratio estimation/Rplot 3 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 4 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 5 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 6 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 7 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 8 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 9 .jpg'},
-			 { ratio: 'img/ratio estimation/Rplot 10 .jpg'},
-			]
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 1 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height= 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 2 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },		
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 3 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 4 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 5 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 6 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 7 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 8 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 9 .jpg' width= 35%></img> <br> <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+			 { ratio: "<strong> Use the slider below to estimate the percentage of <span class = 'greendot'>green dots</span> and then click 'Continue'. </strong> <br> <img src='img/ratio estimation/Rplot 10 .jpg' width= 35%></img> <br>  <video src='vid/countdown15s.mp4' height = 45 autoplay = true></vid>" },
+		],
+		randomize_order: true
 	}
 	timeline.push(ratio_estimation_trial);
 
+
+
+	
 
 	//End of trials message
 	var TestEnd = {
@@ -142,7 +156,7 @@
 	timeline.push({
 		type: "fullscreen",
 		fullscreen_mode: false,
-		message: "Thank you for your feedback. You can now close this window."
+		message: "Thank you. You can now close this window."
 	});
 	
 	//The End
@@ -166,5 +180,4 @@
 		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add", data);
 	}
 </script>
-
 </html>
