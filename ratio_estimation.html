@@ -125,6 +125,7 @@
 				data: {
 					trial: 'ratio-estimation',
 					plotID:jsPsych.timelineVariable('plotID'),
+					freqGreen:jsPsych.timelineVariable('freqGreen'),
 					colorAsked:jsPsych.timelineVariable('colorAsked')
 					},
 			}
@@ -145,6 +146,8 @@
 		choices: ['Continue to next section'],
 	}
 	timeline.push(TestEnd)
+
+	
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -173,6 +176,9 @@
         jsPsych.data.displayData();
       }
 	});
+
+
+	//var Results = jsPsych.data.get().filter({trial_type: 'html-slider-response'}
 	
 
 
