@@ -1224,7 +1224,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_10.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_10.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 10,
             "left": 10,
             "right": 10
@@ -1352,7 +1352,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_11.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_11.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 11,
             "left": 10,
             "right": 10
@@ -1480,7 +1480,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_12.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_12.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 12,
             "left": 10,
             "right": 10
@@ -1608,7 +1608,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_13.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_13.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 13,
             "left": 10,
             "right": 10
@@ -1736,7 +1736,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_14.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_14.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 14,
             "left": 10,
             "right": 10
@@ -1864,7 +1864,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_15.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_15.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 15,
             "left": 10,
             "right": 10
@@ -1992,7 +1992,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_16.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_16.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 16,
             "left": 10,
             "right": 10
@@ -2120,7 +2120,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_17.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_17.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 17,
             "left": 10,
             "right": 10
@@ -2248,7 +2248,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_18.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_18.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 18,
             "left": 10,
             "right": 10
@@ -2376,7 +2376,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_19.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_19.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 19,
             "left": 10,
             "right": 10
@@ -2504,7 +2504,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_20.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_20.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 20,
             "left": 10,
             "right": 10
@@ -2632,7 +2632,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_21.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_21.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 21,
             "left": 10,
             "right": 10
@@ -2760,7 +2760,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_22.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_22.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 22,
             "left": 10,
             "right": 10
@@ -2888,7 +2888,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_23.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_23.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 23,
             "left": 10,
             "right": 10
@@ -3016,7 +3016,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_24.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_24.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 24,
             "left": 10,
             "right": 10
@@ -3144,7 +3144,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_25.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_25.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 25,
             "left": 10,
             "right": 10
@@ -3272,7 +3272,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_26.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_26.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 26,
             "left": 10,
             "right": 10
@@ -3400,7 +3400,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_27.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_27.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 27,
             "left": 10,
             "right": 10
@@ -3528,7 +3528,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_28.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_28.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 28,
             "left": 10,
             "right": 10
@@ -3656,7 +3656,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_29.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_29.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 29,
             "left": 10,
             "right": 10
@@ -3784,7 +3784,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_30.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_30.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 30,
             "left": 10,
             "right": 10
@@ -3912,7 +3912,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_31.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_31.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 31,
             "left": 10,
             "right": 10
@@ -4040,7 +4040,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_32.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_32.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 32,
             "left": 10,
             "right": 10
@@ -4168,7 +4168,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_33.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_33.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 33,
             "left": 10,
             "right": 10
@@ -4296,7 +4296,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_34.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_34.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 34,
             "left": 10,
             "right": 10
@@ -4424,7 +4424,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_35.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_35.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 35,
             "left": 10,
             "right": 10
@@ -4552,7 +4552,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_36.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_36.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 36,
             "left": 10,
             "right": 10
@@ -4680,7 +4680,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_37.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_37.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 37,
             "left": 10,
             "right": 10
@@ -4808,7 +4808,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_38.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_38.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 38,
             "left": 10,
             "right": 10
@@ -4936,7 +4936,7 @@ const retifiedPairs = [
             "right": 9
         },
         {
-            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_39.PNG'  class = 'picpair' ></img<video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
+            "pair": `<div class='bgImgCenter'>   <img src='img/stimuli2${genderKey}/pairID_39.PNG'  class = 'picpair' ></img><video src='vid/votes/10 ${gender} icons - video.mp4' autoplay = true class = 'votes'>  </video>  <video src='vid/votes/10 ${gender} icons - video.mp4'  autoplay = true class = 'votes'>  </video> </div>`,
             "id": 39,
             "left": 10,
             "right": 10
