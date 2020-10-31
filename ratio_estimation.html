@@ -168,29 +168,29 @@
 
 
 
-	/* start the experiment */
-	
+	/* start the experiment (and display data at the end)*/
+	/*
     jsPsych.init({
       timeline: timeline,
       on_finish: function() {
         jsPsych.data.displayData('csv');
       }
 	});
-
+*/
 
 	//var Results = jsPsych.data.get().filter({trial_type: 'html-slider-response'}
 	
 
 
-	/* start the experiment */
-	/*
+	/* start the experiment (and save to database) */
+	
 	jsPsych.init({
 		timeline: timeline,
 		on_finish: function () {
 			handleData();
 		}
 	}); 
-	*/
+	
 	
 	function handleData() {
 		const questionnaireData = JSON.parse(jsPsych.data.get().json());
