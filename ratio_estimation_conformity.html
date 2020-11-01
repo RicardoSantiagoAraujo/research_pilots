@@ -138,11 +138,11 @@
 				prompt: "<p> Which color appears more often in the screen? <br>  <strong>Use your <span class ='green'>left </span> and <span class='red'>right</span> arrow keys to choose </strong> </p> <video src='vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
 				choices: [37, 39],
 				data: {
-					RatioId: jsPsych.timelineVariable('id'),
-					//freqGreen:jsPsych.timelineVariable('freqGreen'),
+					ratioID: jsPsych.timelineVariable('id'),
+					freqGreen:jsPsych.timelineVariable('freqGreen'),
 					leftRate: jsPsych.timelineVariable('left'),
 					rightRate: jsPsych.timelineVariable('right'),
-					trial: 'ratio_estimation'
+					trial: 'ratio-estimation-conformity'
 				},
 				trial_duration: 15000,
 			}
@@ -175,15 +175,21 @@
   stimulus: 'Thank you for your participation. You can now close this window.'
 });
 
-	/* start the experiment */
+	/* start the experiment (and save to database) */
 
-    jsPsych.init({
-      timeline: timeline,
-      on_finish: function() {
-        jsPsych.data.displayData('csv');
-      }
+	jsPsych.init({
+		timeline: timeline,
+		on_finish: function () {
+			handleData();
+		}
 	});
 
+	function handleData() {
+		const questionnaireData = JSON.parse(jsPsych.data.get().json());
+		const data = { data: questionnaireData };
+
+		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add/ratio-conformity", data);
+	}
 
 </script>
 
