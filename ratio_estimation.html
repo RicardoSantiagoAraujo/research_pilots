@@ -34,7 +34,7 @@
 	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
 	</link>
 
-	
+
 	<style>
 		.leftallign {
 			text-align: justify
@@ -137,7 +137,7 @@
 
 
 
-	
+
 
 	//End of trials message
 	var TestEnd = {
@@ -147,11 +147,11 @@
 	}
 	timeline.push(TestEnd)
 
-	
+
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
-	
+
 
 	//Exit fullscreen
 	timeline.push({
@@ -159,7 +159,7 @@
 		fullscreen_mode: false,
 		message: "Thank you. You can now close this window."
 	});
-	
+
 	//The End
 	timeline.push({
   type: 'html-keyboard-response',
@@ -179,21 +179,21 @@
 */
 
 	//var Results = jsPsych.data.get().filter({trial_type: 'html-slider-response'}
-	
+
 
 
 	/* start the experiment (and save to database) */
-	
+
 	jsPsych.init({
 		timeline: timeline,
 		on_finish: function () {
 			handleData();
 		}
-	}); 
-	
+	});
+
 	function handleData() {
 		const questionnaireData = JSON.parse(jsPsych.data.get().json());
-		const data = { data: questionnaireData, personalData, userGender: gender };
+		const data = { data: questionnaireData };
 
 		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add/ratio", data);
 	}
