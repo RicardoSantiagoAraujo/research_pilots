@@ -195,7 +195,7 @@
 		const questionnaireData = JSON.parse(jsPsych.data.get().json());
 		const data = { data: questionnaireData, personalData, userGender: gender };
 
-		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add", data);
+		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add/ratio", data);
 	}
 </script>
 </html>
