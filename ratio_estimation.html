@@ -37,25 +37,31 @@
 
 	<style>
 		.leftallign {
-			text-align: justify
+			text-align: justify;
 		}
 
 		.Focus {
-			line-height: 200%
+			line-height: 200%;
 		}
 
-		.greendot {
-			color: #0000FF,
+		.greendot{
+			color: #0000FF;
 		}
 
-		.reddot {
-			color: #909000,
+		.reddot{
+			color: #909000;
 		}
-
+		.img{
+			height: 50vh;
+		}
+		.vid{
+			height: 5vh;
+		}
 		#estimation {
 			margin:0;
-			padding:0
+			padding:0;
 			}
+			
 
 
 	</style>
@@ -96,7 +102,7 @@
 	//Instructions1
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of yellow and blue dots. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of <span class="reddot"><strong> yellow dots</strong></span> and <span class="greendot"><strong>blue dots</span></strong>. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
 		choices: ['Click here to begin experiment!'],
 	}
 	timeline.push(Instructions1)
@@ -125,7 +131,7 @@
 				data: {
 					trial: 'ratio-estimation',
 					plotID:jsPsych.timelineVariable('plotID'),
-					freqGreen:jsPsych.timelineVariable('freqGreen'),
+					freqgreendot:jsPsych.timelineVariable('freqgreendot'),
 					colorAsked:jsPsych.timelineVariable('colorAsked')
 					},
 			}
@@ -204,8 +210,8 @@
 	});
 
 	function handleData() {
-		const questionnaireData = JSON.parse(jsPsych.data.get().json());
-		const data = { data: questionnaireData };
+		const questionnaireddotata = JSON.parse(jsPsych.data.get().json());
+		const data = { data: questionnaireddotata };
 
 		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add/ratio", data);
 	}
