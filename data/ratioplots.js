@@ -1,4 +1,4 @@
-const selectedNumber = 50;
+const selectedNumber = 10;
 let ratioplots = [];
 
 Array.prototype.sample = function () {
