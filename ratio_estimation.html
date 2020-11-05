@@ -212,7 +212,7 @@
 	function handleData() {
 		const questionnaireddotata = JSON.parse(jsPsych.data.get().json());
 		const data = { data: questionnaireddotata };
-		//axios.post("http://127.0.0.1:5506/questionnaires/add/ratio", data);
+		//axios.post("http://127.0.0.1:3000/questionnaires/add/ratio", data);
 		axios.post("https://mate-choice-test.herokuapp.com/questionnaires/add/ratio", data);
 	}
 </script>
