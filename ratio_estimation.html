@@ -45,11 +45,11 @@
 		}
 
 		.greendot{
-			color: #0000FF;
+			color: #0088FF;
 		}
 
 		.reddot{
-			color: #909000;
+			color: #ff7700;
 		}
 		.img{
 			height: 50vh;
@@ -102,7 +102,7 @@
 	//Instructions1
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of <span class="reddot"><strong> yellow dots</strong></span> and <span class="greendot"><strong>blue dots</span></strong>. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of <span class="reddot"><strong> orange dots</strong></span> and <span class="greendot"><strong>blue dots</span></strong>. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of 10 trials. You have 15 seconds to answer each trial.</p>`,
 		choices: ['Click here to begin experiment!'],
 	}
 	timeline.push(Instructions1)
@@ -159,7 +159,7 @@
 		type: 'survey-text',
 		questions: [
 			{ prompt: "<strong> Conclusion of experiment pilot. </strong> <br><br> <div class='leftallign'>Please write here any Suggestions/Observations about the experiment that you would like to share with us, as well as any bugs you have experienced. Your feedback is greatly appreciated! </div>", rows: 15, columns: 70 },
-			{ prompt: "<div class='leftallign'> Were you already aware of the purpose of this experiment before you took part?</div>", rows: 3, columns: 70 }
+			{ prompt: "<div class='leftallign'> <strong> Write here your name</strong> if you want to know how accurate your responses were compared to the rest of the participants. </div>", rows: 3, columns: 70 }
 		],
 		data: {
 			trial: 'feedback'
