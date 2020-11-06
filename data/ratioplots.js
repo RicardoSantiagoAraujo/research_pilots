@@ -1,4 +1,4 @@
-const selectedNumber = 25;
+const selectedNumber = 25; // how many trials per participant
 let ratioplots = [];
 
 Array.prototype.sample = function () {
