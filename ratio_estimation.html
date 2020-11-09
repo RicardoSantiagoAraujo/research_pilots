@@ -105,29 +105,23 @@
 	//Instructions1
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of <span class="reddot"><strong> orange dots</strong></span> and <span class="greendot"><strong>blue dots</span></strong>. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of <strong>25 trials</strong>. You have <strong>15 seconds</strong> to answer each trial.<br><br><br> Try to be as accurate as possible! In the end there will be an option to leave your contact so that in a few days I will tell you how your performance compares to other participants.</p>`,
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this study, you will be shown screens full of <span class="reddot"><strong> orange dots</strong></span> and <span class="greendot"><strong>blue dots</span></strong>. We would like you to estimate the ratio between the two types of dots as accurately as possible by using a slider as shown below.<br> There will be a total of <strong>25 trials</strong>. You have <strong>20 seconds</strong> to answer each trial.<br><br><br> Try to be as accurate as possible! In the end there will be an option to leave your contact so that in a few days I will tell you how your performance compares to other participants.</p>`,
 		choices: ['Click here to begin experiment!'],
 	}
 	timeline.push(Instructions1)
 
-	// Demo video
-	var demo = {
-		type: 'video-button-response',
-		sources: [`vid/ratioestimation.demo2.mp4`],
-		choices: ['Start Experiment'],
-		button_html: '<button class="jspsych-btn">%choice%!</button>',
-		margin_vertical: '10px',
-		margin_horizontal: '8px',
-		prompt: "Watch the demonstration video above to see how it works. Note that you must click<strong> Continue</strong> to submit your answer. <br><br><strong> <span class='warning'>WARNING:</span> The color asked (<span class='greendot'>BLUE</span> or <span class='reddot'>ORANGE</span>) changes from trial to trial!</strong>",
-		width: 1000,
-		autoplay: true,
-		controls: true,
-		rate: 1.5,
 
+
+
+		// Demo video
+		var demo = {
+		type: 'html-button-response',
+		stimulus: "<video src ='vid/ratioestimation.demo2.mp4' autoplay = true controls width=1300></video> <br> <p> Watch the demonstration video above to see how it works. Note that you must click<strong> Continue</strong> to submit your answer. <br><br><strong> <span class='warning'>WARNING:</span> The color asked (<span class='greendot'>BLUE</span> or <span class='reddot'>ORANGE</span>) changes from trial to trial!</strong><p>",
+		choices: ['When you are ready, click here to start experiment'],
+		button_html: '<button class="jspsych-btn">%choice%!</button>',
 		response_ends_trial: true
 	}
 	timeline.push(demo);
-
 
 	////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -143,8 +137,8 @@
 				stimulus_height: null ,
 				//slider_width: 1000,
 				min: 0,
-				max: 100,
-				start: 50,
+				max: 250,
+				start: 125,
 				trial_duration: 20000,
 				button_label: "Continue",
 				data: {
