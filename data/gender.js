@@ -5,6 +5,7 @@ const MALE = 'male';
 const gender = urlParams.get('gender');
 const oppositeGender = gender === FEMALE ? MALE : FEMALE;
 const genderKey = gender === FEMALE ? 'F' : '';
+const genderOppositeKey = gender === FEMALE ? '' : 'F';
 
 const eyeColour = gender === FEMALE ? '3.54-WF-246' : '3.5-WM-253';
 const age = gender === FEMALE ? '3.54-WF-246' : '3.5-WM-253';
