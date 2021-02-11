@@ -3,19 +3,19 @@
 
 <head>
 	<title>Mate choice experiment</title>
-	<script src="jspsych-6.1.0/jspsych.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-image-button-response.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-fullscreen.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-survey-multi-select.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-video-button-response.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
-	<script src="jspsych-6.1.0/plugins/jspsych-image-slider-response.js"></script>
+	<script src="../jspsych-6.1.0/jspsych.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-fullscreen.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-multi-select.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-video-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-slider-response.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
@@ -28,9 +28,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"
 		integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
 		crossorigin="anonymous"></script>
-	<script src="data/gender.js"></script>
-	<script src="data/pairs.js"></script>
-	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
+	<script src="../data/gender.js"></script>
+	<script src="../data/pairs.js"></script>
+	<link href="../jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
 	</link>
 
 	<script>
@@ -191,7 +191,7 @@
 	//Instructions1
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of ${oppositeGender} portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="img/${gender.toUpperCase()}.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>`,
+		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of ${oppositeGender} portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which individual you would prefer to go on a date with</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="../img/${gender.toUpperCase()}.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>`,
 		choices: ['Click here to watch a demonstration video'],
 	}
 	timeline.push(Instructions1)
@@ -199,7 +199,7 @@
 	// Demo videos
 	var demo1 = {
 		type: 'video-button-response',
-		sources: [`vid/Demonstrative example - Part 1and2${genderKey}.mp4`],
+		sources: [`../vid/Demonstrative example - Part 1and2${genderKey}.mp4`],
 		choices: ['Next'],
 		button_html: '<button class="jspsych-btn">%choice%!</button>',
 		margin_vertical: '10px',
@@ -215,7 +215,7 @@
 
 	var demo2 = {
 		type: 'video-button-response',
-		sources: [`vid/Demonstrative example - Part 3${genderKey}.mp4`],
+		sources: [`../vid/Demonstrative example - Part 3${genderKey}.mp4`],
 		choices: ['Next'],
 		button_html: '<button class="jspsych-btn">%choice%!</button>',
 		margin_vertical: '10px',
@@ -232,7 +232,7 @@
 	//Instructions2
 	var Instructions2 = {
 		type: 'html-button-response',
-		stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, <strong>use the arrow keys on your keyboard</strong> as shown below:  </p> <img src="img/keyboard.png" height= 160 ></img><br><img src="img/arrows.png" height= 160 ></img> <br><br>',
+		stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, <strong>use the arrow keys on your keyboard</strong> as shown below:  </p> <img src="../img/keyboard.png" height= 160 ></img><br><img src="../img/arrows.png" height= 160 ></img> <br><br>',
 		choices: ['Click here to begin experiment!'],
 	}
 	timeline.push(Instructions2)
@@ -245,7 +245,7 @@
 	//Eye colour pick
 	var Eyecolour1 = {
 		type: 'image-button-response',
-		stimulus: `img/bonus/${eyeColour}.jpg`,
+		stimulus: `../img/bonus/${eyeColour}.jpg`,
 		prompt: "What is this individual's eye colour?",
 		stimulus_height: 400,
 		data: {
@@ -259,7 +259,7 @@
 	//Age pick
 	var Age1 = {
 		type: 'image-slider-response',
-		stimulus: `img/bonus/${age}.jpg`,
+		stimulus: `../img/bonus/${age}.jpg`,
 		labels: ['10', '|', '20', '|', '30', '|', '40', '|', '50', '|', '60'],
 		min: 0,
 		max: 60,
@@ -280,7 +280,7 @@
 			{
 				type: 'html-keyboard-response',
 				stimulus: jsPsych.timelineVariable('pair'),
-				prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
+				prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='../vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
 				choices: [37, 39],
 				data: {
 					pairId: jsPsych.timelineVariable('id'),
@@ -304,7 +304,7 @@
 	//Eye colour pick
 	var Eyecolour2 = {
 		type: 'html-button-response',
-		stimulus: `The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="img/bonus/${attentionCheck}.jpg" height= 400 ></img> <br>`,
+		stimulus: `The goal of this task is to test your attention. Here, select <strong>"Brown"</strong> regardless of the actual colour. <img src="../img/bonus/${attentionCheck}.jpg" height= 400 ></img> <br>`,
 		prompt: "What is this individual's eye colour, <strong> based on the text above the picture</strong>?",
 		data: {
 			trial: 'eye-colour-attention-check',
@@ -317,7 +317,7 @@
 	//Age pick
 	var Age2 = {
 		type: 'image-slider-response',
-		stimulus: `img/bonus/${secondAge}.jpg`,
+		stimulus: `../img/bonus/${secondAge}.jpg`,
 		labels: ['10', '|', '20', '|', '30', '|', '40', '|', '50', '|', '60'],
 		min: 0,
 		max: 60,
