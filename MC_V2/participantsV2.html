@@ -55,19 +55,30 @@
  			 border: 1px solid #000;
   			position: relative;
 		}
+
+		.whiterec {
+			height: 3%;
+  			width: 100%;
+ 			background-color: rgb(255, 255, 255);
+			outline: none;
+			position: absolute;
+			bottom: 0;
+			z-index: 3
+		}
+
 		.partnerR {
 			outline: none;
-			width: 30%;
+			width: 27.5%;
 			position: absolute;
-			top: 0;
+			bottom: 2%;
     		right: 5%;
 			z-index: 1
 		}
 		.partnerL {
 			outline: none;
-			width: 30%;
+			width: 27.5%;
 			position: absolute;
-			top: 0;
+			bottom: 2%;
     		left: 5%;
 			z-index: 1
 		}
@@ -75,7 +86,7 @@
 		.picpair {
 			width: 30%;
 			position: relative;
-			top: 0;
+			bottom: 0;
 			left: 0;
 			z-index: 2
 		}
@@ -125,7 +136,7 @@
 		cont_btn: "start",
 		check_fn: check_consent
 	};
-	timeline.push(Consent);
+	//timeline.push(Consent);
 
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
@@ -189,7 +200,7 @@
 		execute_script: true
 	};
 
-	timeline.push(Questionnaire);
+	//timeline.push(Questionnaire);
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -205,7 +216,7 @@
 		stimulus: '<h1 class="Focus"> Please ensure that you are sitting comfortably in a quiet environment, and will not be disturbed while doing the experiment.<br> We would like to have your full attention. </h1>',
 		choices: ['Click here for the instructions'],
 	}
-	timeline.push(Focus)
+	//timeline.push(Focus)
 
 	//Instructions1
 	var Instructions1 = {
@@ -213,7 +224,7 @@
 		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown pairs of ${oppositeGender} portraits in a fictional dating website, often paired with their partners. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to vote on <strong>which ${oppositeGender} individual do you find the most attractive</strong>. You will also be able to see votes from the other users of the service. Votes are represented by the icon below: </p> <img src="../img/${gender.toUpperCase()}.png" height= 80 ></img> <p class="leftallign"> Additionally, we will also show  you separate portraits and ask  you simple questions about them (for example "what is their eye color?"). </p> <br><br>`,
 		choices: ['Click here to watch a demonstration video'],
 	}
-	timeline.push(Instructions1)
+	//timeline.push(Instructions1)
 
 	// Demo videos
 	var demo1 = {
@@ -230,7 +241,7 @@
 
 		response_ends_trial: true
 	}
-	timeline.push(demo1);
+	//timeline.push(demo1);
 
 	var demo2 = {
 		type: 'video-button-response',
@@ -246,7 +257,7 @@
 
 		response_ends_trial: true
 	}
-	timeline.push(demo2);
+	//timeline.push(demo2);
 
 	//Instructions2
 	var Instructions2 = {
@@ -254,7 +265,7 @@
 		stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, <strong>use the arrow keys on your keyboard</strong> as shown below:  </p> <img src="../img/keyboard.png" height= 160 ></img><br><img src="../img/arrows.png" height= 160 ></img> <br><br>',
 		choices: ['Click here to begin experiment!'],
 	}
-	timeline.push(Instructions2)
+	//timeline.push(Instructions2)
 
 
 	////////////////////////////////////////////////////////////////////////////////////////////////
@@ -273,7 +284,7 @@
 		},
 		choices: ['Brown', 'Blue']
 	}
-	timeline.push(Eyecolour1)
+	//timeline.push(Eyecolour1)
 
 	//Age pick
 	var Age1 = {
@@ -291,7 +302,7 @@
 		stimulus_height: 400,
 		prompt: "Estimate his age using the slider above. <br>",
 	};
-	timeline.push(Age1)
+	//imeline.push(Age1)
 
 	// Mate choice trials
 	var mate_choice_trial = {
@@ -331,7 +342,7 @@
 		},
 		choices: ['Brown', 'Blue'],
 	}
-	timeline.push(Eyecolour2)
+	//timeline.push(Eyecolour2)
 
 	//Age pick
 	var Age2 = {
@@ -349,7 +360,7 @@
 		stimulus_height: 400,
 		prompt: "Estimate his age using the slider above. <br>"
 	};
-	timeline.push(Age2)
+	//timeline.push(Age2)
 
 	//End of trials message
 	var TestEnd = {
@@ -357,7 +368,7 @@
 		stimulus: '<h4> This is the end of this task. </h4> ',
 		choices: ['Continue to next section'],
 	}
-	timeline.push(TestEnd)
+	//timeline.push(TestEnd)
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -378,7 +389,7 @@
 			trial: 'perception'
 		},
 	};
-	timeline.push(Perception);
+	//timeline.push(Perception);
 
 	//Explanation
 	var Debriefing = {
@@ -386,7 +397,7 @@
 		stimulus: `<h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of ${oppositeGender} faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <strong> ricardo.santiago-araujo@univ-tlse3.fr </strong> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>`,
 		choices: ['Click here to finish']
 	}
-	timeline.push(Debriefing);
+	//timeline.push(Debriefing);
 
 	//Feedback
 	var Feedback = {
@@ -399,7 +410,7 @@
 			trial: 'feedback'
 		},
 	};
-	timeline.push(Feedback);
+	//timeline.push(Feedback);
 
 	//Exit fullscreen
 	timeline.push({
