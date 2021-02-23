@@ -5,6 +5,7 @@
 	<title>Mate choice experiment</title>
 	<script src="../jspsych-6.1.0/jspsych.js"></script>
 	<script src="../jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-slider-response.js"></script>
 	<script src="../jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
 	<script src="../jspsych-6.1.0/plugins/jspsych-image-button-response.js"></script>
 	<script src="../jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
@@ -29,7 +30,7 @@
 		integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
 		crossorigin="anonymous"></script>
 	<script src="../data/gender.js"></script>
-	<script src="../data/pairs.js"></script>
+	<script src="../data/singlesV1.js"></script>
 	<link href="../jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
 	</link>
 
@@ -48,21 +49,26 @@
 
 
 	<style>
+		
 		.leftallign {
 			text-align: justify
 		}
 
 		.votes {
 			outline: none;
-			width: 49%
+			width: 35%
 		}
 
-		.picpair {
-			width: 98%
+		.picsingle {
+			width: 30%; 
 		}
 
 		.Focus {
 			line-height: 200%
+		}
+
+		.prompt {
+			font-size: 80%;
 		}
 	</style>
 
@@ -106,7 +112,7 @@
 		cont_btn: "start",
 		check_fn: check_consent
 	};
-	timeline.push(Consent);
+	//timeline.push(Consent);
 
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
@@ -170,7 +176,7 @@
 		execute_script: true
 	};
 
-	timeline.push(Questionnaire);
+	//timeline.push(Questionnaire);
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -186,7 +192,7 @@
 		stimulus: '<h1 class="Focus"> Please ensure that you are sitting comfortably in a quiet environment, and will not be disturbed while doing the experiment.<br> We would like to have your full attention. </h1>',
 		choices: ['Click here for the instructions'],
 	}
-	timeline.push(Focus)
+	//timeline.push(Focus)
 
 	//Instructions1
 	var Instructions1 = {
@@ -194,7 +200,7 @@
 		stimulus: `<h3> Instructions </h3> <p class="leftallign">  In this section of the study, you will be shown ${oppositeGender} portraits in a fictional dating website. We would like you to behave as you would if you were using a real online dating service with real users and make choices accordingly. <br> You will be prompted to <strong> rate the attractiveness of the face shown</strong>. You will also be able to see an average of the scores from other users of the service. Additionally, we will also show  you separate portraits and ask you simple questions about them (for example "what is their eye color?"). </p> <br><br>`,
 		choices: ['Click here to watch a demonstration video'],
 	}
-	timeline.push(Instructions1)
+	//timeline.push(Instructions1)
 
 	// Demo videos
 	var demo1 = {
@@ -211,7 +217,7 @@
 
 		response_ends_trial: true
 	}
-	timeline.push(demo1);
+	//timeline.push(demo1);
 
 	var demo2 = {
 		type: 'video-button-response',
@@ -227,7 +233,7 @@
 
 		response_ends_trial: true
 	}
-	timeline.push(demo2);
+	//timeline.push(demo2);
 
 	//Instructions2
 	var Instructions2 = {
@@ -235,7 +241,7 @@
 		stimulus: '<h4> Demonstration finished </h4> <p class="leftallign"> This version of the experiment is a work-in-progress used for pilot studies. The trials that follows may not look exactly like what you have just been shown, but is rather a simplified version. To pick between pictures, <strong>use the arrow keys on your keyboard</strong> as shown below:  </p> <img src="../img/keyboard.png" height= 160 ></img><br><img src="../img/arrows.png" height= 160 ></img> <br><br>',
 		choices: ['Click here to begin experiment!'],
 	}
-	timeline.push(Instructions2)
+	//timeline.push(Instructions2)
 
 
 	////////////////////////////////////////////////////////////////////////////////////////////////
@@ -254,7 +260,7 @@
 		},
 		choices: ['Brown', 'Blue']
 	}
-	timeline.push(Eyecolour1)
+	//timeline.push(Eyecolour1)
 
 	//Age pick
 	var Age1 = {
@@ -272,16 +278,20 @@
 		stimulus_height: 400,
 		prompt: "Estimate his age using the slider above. <br>",
 	};
-	timeline.push(Age1)
+	//timeline.push(Age1)
 
 	// Mate choice trials
 	var mate_choice_trial = {
 		timeline: [
 			{
-				type: 'html-keyboard-response',
+				type: 'html-slider-response',
 				stimulus: jsPsych.timelineVariable('pair'),
-				prompt: "<p> Which individual would you prefer to go on an date with? <br> <div id='delayedText' style='visibility:visible'> <strong>Use your left and right arrows to choose </strong> </p> <video src='../vid/countdown15s.mp4' height = 65 autoplay = true> </div>",
-				choices: [37, 39],
+				prompt: "<p class='prompt'> On a scale of 1 to 10, how attractive would you rate the individual above? <strong>Drag the slider to respond. </strong>  <br> <video src='../vid/countdown15s.mp4' height = 40 autoplay = true> </p> ",
+				labels: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+				min: 0,
+				max: 10,
+				start: 5,
+				slider_width: 400,
 				data: {
 					pairId: jsPsych.timelineVariable('id'),
 					leftRate: jsPsych.timelineVariable('left'),
@@ -291,7 +301,7 @@
 				trial_duration: 15000,
 			}
 		],
-		timeline_variables: pairs,
+		timeline_variables: singlesV1,
 		randomize_order: true,
 
 		sample: {
@@ -312,7 +322,7 @@
 		},
 		choices: ['Brown', 'Blue'],
 	}
-	timeline.push(Eyecolour2)
+	//timeline.push(Eyecolour2)
 
 	//Age pick
 	var Age2 = {
@@ -330,7 +340,7 @@
 		stimulus_height: 400,
 		prompt: "Estimate his age using the slider above. <br>"
 	};
-	timeline.push(Age2)
+	//timeline.push(Age2)
 
 	//End of trials message
 	var TestEnd = {
@@ -338,7 +348,7 @@
 		stimulus: '<h4> This is the end of this task. </h4> ',
 		choices: ['Continue to next section'],
 	}
-	timeline.push(TestEnd)
+	//timeline.push(TestEnd)
 
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -359,7 +369,7 @@
 			trial: 'perception'
 		},
 	};
-	timeline.push(Perception);
+	//timeline.push(Perception);
 
 	//Explanation
 	var Debriefing = {
@@ -367,7 +377,7 @@
 		stimulus: `<h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of ${oppositeGender} faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <strong> ricardo.santiago-araujo@univ-tlse3.fr </strong> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>`,
 		choices: ['Click here to finish']
 	}
-	timeline.push(Debriefing);
+	//timeline.push(Debriefing);
 
 	//Feedback
 	var Feedback = {
@@ -380,7 +390,7 @@
 			trial: 'feedback'
 		},
 	};
-	timeline.push(Feedback);
+	//timeline.push(Feedback);
 
 	//Exit fullscreen
 	timeline.push({
