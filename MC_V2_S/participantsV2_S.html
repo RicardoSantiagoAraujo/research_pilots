@@ -68,6 +68,42 @@
 			z-index: 3
 		}
 
+		.Loading {
+			height: 101%;
+  			width: 101%;
+			text-align: center;
+ 			background-color: white;
+			outline: none;
+			position: absolute;
+			bottom: -0.5%;
+			left: -0.5%;
+			z-index: 4;
+			-webkit-animation: seconds 1.0s forwards;
+			-webkit-animation-iteration-count: 1;
+			-webkit-animation-delay: 5s;
+			animation: seconds 1s forwards;
+			animation-iteration-count: 1;
+			animation-delay: 1s;
+		}
+		@-webkit-keyframes seconds {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+			top: -9999px; 
+		}
+		}
+		@keyframes seconds {
+		0% {
+			opacity: 1;
+		}
+		100% {
+			opacity: 0;
+			top: -9999px; 
+		}
+		}
+
 		.partner1R {outline: none; width: 27.5%; position: absolute; bottom: 2%; left: 15%; z-index: 1}
 		.partner1L {outline: none; width: 27.5%; position: absolute; bottom: 2%; right: 15%; z-index: 1}
 		
