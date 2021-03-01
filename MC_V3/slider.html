@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mate choice experiment</title>
+	<script src="../jspsych-6.1.0/jspsych.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-slider-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-keyboard-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-html-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-external-html.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-fullscreen.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-html-form.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-instructions.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-multi-select.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-video-button-response.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-survey-text.js"></script>
+	<script src="../jspsych-6.1.0/plugins/jspsych-image-slider-response.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.20.0/axios.js"
+		integrity="sha512-nqIFZC8560+CqHgXKez61MI0f9XSTKLkm0zFVm/99Wt0jSTZ7yeeYwbzyl0SGn/s8Mulbdw+ScCG41hmO2+FKw=="
+		crossorigin="anonymous"></script>
+	<script src="../data/gender.js"></script>
+	<script src="../data/singlesV1.js"></script>
+	<link href="../jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
+	</link>
+
+	<script>
+		/* Trying to set a delay but its not working correctly
+
+		window.onload = function(){
+			var theDelay = 10;
+			var timer = setTimeout("showText()",theDelay*1000)
+		}
+		function showText(){
+			document.getElementById("delayedText").style.visibility = "visible";
+		}
+		*/
+	</script>
+
+
+	<style>
+		
+		.leftallign {
+			text-align: justify
+		}
+
+		.votes {
+			outline: none;
+			width: 35%
+		}
+
+		.picsingle {
+			width: 30%; 
+		}
+
+		.Focus {
+			line-height: 200%
+		}
+
+		.prompt {
+			font-size: 80%;
+		}
+
+
+		div.demo {
+    display: table;
+    width: 100%;
+    table-layout: fixed;    /* For cells of equal size */
+}
+	div.demo span {
+    display: table-cell;
+    text-align: center;
+}
+	</style>
+
+</head>
+
+<body>
+
+
+
+<div  style="position:relative; margin: 0 auto 3em auto; width:50%" >
+<input type="range" value=5 min=0 max=7 step=0.01 style="width: 100%;"></input>
+<div  style="display: inline-block; position: absolute; left: 10 ; text-align: center; width:100%">
+	<div class="demo">
+	<span>0</span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+	</div>
+</div>
+</div>
+
+
+
+
+
+</body>
