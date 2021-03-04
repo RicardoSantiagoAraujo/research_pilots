@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Mate choice experiment</title>
+	<title>Ratio estimation experiment</title>
 	<script src="jspsych-6.1.0/jspsych.js"></script>
 	<script src="jspsych-6.1.0/plugins/jspsych-html-keyboard-response.js"></script>
 	<script src="jspsych-6.1.0/plugins/jspsych-html-slider-response3.js"></script>
@@ -81,13 +81,60 @@
 			width: 40%;
 			
 		}
-		input[type=range] {
-    	-webkit-appearance: none;
-    	background-color: rgba(0, 0, 0, 0.925);
-    	width: 200px;
-    	height:20px;
+
+		input[type='range'] {
+		-webkit-appearance: none;
+		background-color: #ddd;
+		height: 20px;
+		overflow: hidden;
+		width: 400px;
 		}
 
+		input[type='range']::-webkit-slider-runnable-track {
+		-webkit-appearance: none;
+		height: 20px;
+		}
+
+		input[type='range']::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		background: white;
+		border-radius: 50%;
+		box-shadow: -250px 0 0 240px #0088FF,240px 0 0 500px #ff7700;
+		cursor: pointer;
+		height: 20px;
+		width: 20px;
+		border: 0;
+		}
+
+		input[type=range].disabled::-webkit-slider-thumb{
+		background:grey;
+		}
+
+		input[type='range']::-moz-range-thumb {
+		background: #333;
+		border-radius: 50%;
+		box-shadow: -1010px 0 0 1000px #666;
+		cursor: pointer;
+		height: 20px;
+		width: 20px;
+		border: 0;
+		}
+
+		input[type="range"]::-moz-range-track {
+		background-color: #ddd;
+		}
+		input[type="range"]::-moz-range-progress {
+		background-color: #666;
+		height: 20px
+		}
+		input[type="range"]::-ms-fill-upper {
+		background-color: #ddd;
+		}
+		input[type="range"]::-ms-fill-lower {
+		background-color: #666;
+		}
+
+		
 		.greendot{
 			color: #0088FF;
 		}
