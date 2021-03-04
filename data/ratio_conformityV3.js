@@ -16,7 +16,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -28,7 +28,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -40,7 +40,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -52,7 +52,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -64,7 +64,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -76,7 +76,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -88,7 +88,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -100,7 +100,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -112,7 +112,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 1 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -126,7 +126,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -138,7 +138,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -150,7 +150,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -162,7 +162,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -174,7 +174,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -186,7 +186,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -198,7 +198,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -210,7 +210,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -222,7 +222,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 10 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -236,7 +236,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -248,7 +248,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -260,7 +260,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -272,7 +272,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -284,7 +284,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -296,7 +296,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -308,7 +308,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -320,7 +320,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -332,7 +332,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 11 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -346,7 +346,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -358,7 +358,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -370,7 +370,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -382,7 +382,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -394,7 +394,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -406,7 +406,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -418,7 +418,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -430,7 +430,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -442,7 +442,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 12 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -456,7 +456,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -468,7 +468,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -480,7 +480,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -492,7 +492,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -504,7 +504,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -516,7 +516,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -528,7 +528,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -540,7 +540,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -552,7 +552,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 13 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -566,7 +566,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -578,7 +578,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -590,7 +590,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -602,7 +602,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -614,7 +614,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -626,7 +626,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -638,7 +638,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -650,7 +650,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -662,7 +662,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 14 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -676,7 +676,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -688,7 +688,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -700,7 +700,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -712,7 +712,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -724,7 +724,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -736,7 +736,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -748,7 +748,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -760,7 +760,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -772,7 +772,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 15 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -786,7 +786,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -798,7 +798,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -810,7 +810,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -822,7 +822,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -834,7 +834,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -846,7 +846,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -858,7 +858,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -870,7 +870,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -882,7 +882,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 16 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -896,7 +896,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -908,7 +908,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -920,7 +920,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -932,7 +932,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -944,7 +944,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -956,7 +956,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -968,7 +968,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -980,7 +980,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -992,7 +992,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 17 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1006,7 +1006,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1018,7 +1018,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1030,7 +1030,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1042,7 +1042,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1054,7 +1054,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1066,7 +1066,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1078,7 +1078,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1090,7 +1090,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1102,7 +1102,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 18 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1116,7 +1116,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1128,7 +1128,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1140,7 +1140,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1152,7 +1152,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1164,7 +1164,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1176,7 +1176,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1188,7 +1188,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1200,7 +1200,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1212,7 +1212,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 19 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1226,7 +1226,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1238,7 +1238,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1250,7 +1250,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1262,7 +1262,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1274,7 +1274,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1286,7 +1286,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1298,7 +1298,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1310,7 +1310,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1322,7 +1322,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 2 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1336,7 +1336,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1348,7 +1348,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1360,7 +1360,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1372,7 +1372,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1384,7 +1384,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1396,7 +1396,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1408,7 +1408,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1420,7 +1420,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1432,7 +1432,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 20 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1446,7 +1446,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1458,7 +1458,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1470,7 +1470,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1482,7 +1482,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1494,7 +1494,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1506,7 +1506,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1518,7 +1518,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1530,7 +1530,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1542,7 +1542,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 21 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1556,7 +1556,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1568,7 +1568,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1580,7 +1580,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1592,7 +1592,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1604,7 +1604,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1616,7 +1616,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1628,7 +1628,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1640,7 +1640,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1652,7 +1652,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 22 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1666,7 +1666,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1678,7 +1678,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1690,7 +1690,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1702,7 +1702,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1714,7 +1714,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1726,7 +1726,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1738,7 +1738,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1750,7 +1750,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1762,7 +1762,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 23 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1776,7 +1776,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1788,7 +1788,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1800,7 +1800,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1812,7 +1812,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1824,7 +1824,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1836,7 +1836,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1848,7 +1848,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1860,7 +1860,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1872,7 +1872,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 24 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1886,7 +1886,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1898,7 +1898,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1910,7 +1910,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1922,7 +1922,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1934,7 +1934,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1946,7 +1946,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1958,7 +1958,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1970,7 +1970,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1982,7 +1982,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 25 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -1996,7 +1996,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2008,7 +2008,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2020,7 +2020,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2032,7 +2032,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2044,7 +2044,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2056,7 +2056,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2068,7 +2068,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2080,7 +2080,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2092,7 +2092,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 26 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2106,7 +2106,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2118,7 +2118,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2130,7 +2130,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2142,7 +2142,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2154,7 +2154,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2166,7 +2166,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2178,7 +2178,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2190,7 +2190,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2202,7 +2202,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 27 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2216,7 +2216,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2228,7 +2228,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2240,7 +2240,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2252,7 +2252,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2264,7 +2264,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2276,7 +2276,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2288,7 +2288,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2300,7 +2300,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2312,7 +2312,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 28 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2326,7 +2326,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2338,7 +2338,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2350,7 +2350,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2362,7 +2362,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2374,7 +2374,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2386,7 +2386,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2398,7 +2398,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2410,7 +2410,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2422,7 +2422,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 29 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2436,7 +2436,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2448,7 +2448,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2460,7 +2460,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2472,7 +2472,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2484,7 +2484,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2496,7 +2496,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2508,7 +2508,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2520,7 +2520,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2532,7 +2532,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 3 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2546,7 +2546,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2558,7 +2558,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2570,7 +2570,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2582,7 +2582,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2594,7 +2594,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2606,7 +2606,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2618,7 +2618,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2630,7 +2630,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2642,7 +2642,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 30 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2656,7 +2656,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2668,7 +2668,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2680,7 +2680,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2692,7 +2692,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2704,7 +2704,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2716,7 +2716,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2728,7 +2728,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2740,7 +2740,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2752,7 +2752,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 31 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2766,7 +2766,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2778,7 +2778,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2790,7 +2790,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2802,7 +2802,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2814,7 +2814,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2826,7 +2826,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2838,7 +2838,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2850,7 +2850,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2862,7 +2862,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 32 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2876,7 +2876,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2888,7 +2888,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2900,7 +2900,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2912,7 +2912,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2924,7 +2924,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2936,7 +2936,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2948,7 +2948,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2960,7 +2960,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2972,7 +2972,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 33 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2986,7 +2986,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -2998,7 +2998,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3010,7 +3010,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3022,7 +3022,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3034,7 +3034,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3046,7 +3046,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3058,7 +3058,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3070,7 +3070,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3082,7 +3082,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 34 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3096,7 +3096,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3108,7 +3108,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3120,7 +3120,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3132,7 +3132,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3144,7 +3144,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3156,7 +3156,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3168,7 +3168,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3180,7 +3180,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3192,7 +3192,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 35 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3206,7 +3206,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3218,7 +3218,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3230,7 +3230,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3242,7 +3242,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3254,7 +3254,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3266,7 +3266,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3278,7 +3278,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3290,7 +3290,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3302,7 +3302,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 36 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3316,7 +3316,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3328,7 +3328,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3340,7 +3340,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3352,7 +3352,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3364,7 +3364,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3376,7 +3376,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3388,7 +3388,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3400,7 +3400,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3412,7 +3412,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 37 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3426,7 +3426,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3438,7 +3438,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3450,7 +3450,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3462,7 +3462,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3474,7 +3474,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3486,7 +3486,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3498,7 +3498,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3510,7 +3510,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3522,7 +3522,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 38 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3536,7 +3536,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3548,7 +3548,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3560,7 +3560,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3572,7 +3572,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3584,7 +3584,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3596,7 +3596,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3608,7 +3608,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3620,7 +3620,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3632,7 +3632,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 39 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3646,7 +3646,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3658,7 +3658,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3670,7 +3670,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3682,7 +3682,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3694,7 +3694,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3706,7 +3706,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3718,7 +3718,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3730,7 +3730,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3742,7 +3742,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 4 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3756,7 +3756,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3768,7 +3768,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3780,7 +3780,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3792,7 +3792,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3804,7 +3804,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3816,7 +3816,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3828,7 +3828,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3840,7 +3840,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3852,7 +3852,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 40 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3866,7 +3866,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3878,7 +3878,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3890,7 +3890,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3902,7 +3902,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3914,7 +3914,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3926,7 +3926,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3938,7 +3938,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3950,7 +3950,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3962,7 +3962,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 41 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3976,7 +3976,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -3988,7 +3988,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4000,7 +4000,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4012,7 +4012,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4024,7 +4024,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4036,7 +4036,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4048,7 +4048,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4060,7 +4060,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4072,7 +4072,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 42 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4086,7 +4086,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4098,7 +4098,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4110,7 +4110,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4122,7 +4122,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4134,7 +4134,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4146,7 +4146,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4158,7 +4158,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4170,7 +4170,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4182,7 +4182,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 43 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4196,7 +4196,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4208,7 +4208,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4220,7 +4220,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4232,7 +4232,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4244,7 +4244,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4256,7 +4256,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4268,7 +4268,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4280,7 +4280,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4292,7 +4292,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 44 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4306,7 +4306,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4318,7 +4318,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4330,7 +4330,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4342,7 +4342,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4354,7 +4354,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4366,7 +4366,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4378,7 +4378,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4390,7 +4390,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4402,7 +4402,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 45 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4416,7 +4416,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4428,7 +4428,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4440,7 +4440,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4452,7 +4452,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4464,7 +4464,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4476,7 +4476,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4488,7 +4488,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4500,7 +4500,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4512,7 +4512,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 46 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4526,7 +4526,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4538,7 +4538,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4550,7 +4550,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4562,7 +4562,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4574,7 +4574,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4586,7 +4586,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4598,7 +4598,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4610,7 +4610,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4622,7 +4622,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 47 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4636,7 +4636,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4648,7 +4648,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4660,7 +4660,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4672,7 +4672,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4684,7 +4684,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4696,7 +4696,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4708,7 +4708,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4720,7 +4720,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4732,7 +4732,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 48 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4746,7 +4746,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4758,7 +4758,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4770,7 +4770,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4782,7 +4782,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4794,7 +4794,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4806,7 +4806,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4818,7 +4818,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4830,7 +4830,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4842,7 +4842,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 49 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4856,7 +4856,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4868,7 +4868,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4880,7 +4880,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4892,7 +4892,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4904,7 +4904,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4916,7 +4916,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4928,7 +4928,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4940,7 +4940,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4952,7 +4952,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 5 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4966,7 +4966,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4978,7 +4978,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -4990,7 +4990,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5002,7 +5002,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5014,7 +5014,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5026,7 +5026,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5038,7 +5038,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5050,7 +5050,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5062,7 +5062,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 50 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5076,7 +5076,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5088,7 +5088,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5100,7 +5100,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5112,7 +5112,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5124,7 +5124,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5136,7 +5136,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5148,7 +5148,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5160,7 +5160,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5172,7 +5172,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 6 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5186,7 +5186,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5198,7 +5198,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5210,7 +5210,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5222,7 +5222,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5234,7 +5234,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5246,7 +5246,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5258,7 +5258,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5270,7 +5270,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5282,7 +5282,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 7 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5296,7 +5296,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5308,7 +5308,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5320,7 +5320,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5332,7 +5332,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5344,7 +5344,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5356,7 +5356,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5368,7 +5368,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5380,7 +5380,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5392,7 +5392,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 8 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5406,7 +5406,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5418,7 +5418,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5430,7 +5430,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5442,7 +5442,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5454,7 +5454,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5466,7 +5466,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5478,7 +5478,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5490,7 +5490,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
@@ -5502,7 +5502,7 @@ const Ratios = [
                 {
                         "ratio": `<img src='img/Conformity.in.ration.estimation(all50-50)/Rplot 9 .jpg'  class = 'ratio' >
                         <div  class='socialScale' ><br><br><br>
-                        Please estimate the proportion of BLUE to ORANGE dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
+                        Please estimate the proportion of <span class="greendot">blue</div> to <span class="reddot">orange</div> dots on the screen to the left?<br> <strong>Drag the slider to respond. </strong><br><br>
                         <strong>Estimation from other users:</strong>
                       <input type="range" class=socialSlider value=${Math.round(Math.random() * 100)} min=0 max=100 step=0.01 disabled= true style="width: 100%;"></input>
                             <div class="scaleValues"><span>0%</span><span>25%</span><span>50%</span><span>75%</span><span>100%</span>
