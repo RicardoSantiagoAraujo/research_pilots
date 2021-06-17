@@ -1,11 +1,11 @@
-/**
- * jspsych-html-slider-response
- * a jspsych plugin for free response survey questions
- *
- * Josh de Leeuw
- *
- * documentation: docs.jspsych.org
- *
+/**FOR COLORFUL SLIDER
+
+
+
+
+
+
+
  */
 
 
