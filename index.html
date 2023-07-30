@@ -1,115 +1,212 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<style>
-		h1 {
-			border-width: 2px;
-			border-radius: 25px;
-			border-color: gray;
-			width: 90%;
-			border-style: solid;
-			padding: 5px;
-			margin-left: 5%;
-			position: relative;
-		}
+    <head>
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="styles/switch.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> <!-- jQuerry -->
+        <script src="scripts/switch.js"></script>
+        <meta name="description" content="Ricardo Santiago Araújo's pilot website">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ricardo Santiago Araújo">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
 
-        .main {
-            font-size:x-large;
-            font-weight: bolder;
-        }
+    <body>
+        <header>
+            <ul class="header_nav">
+                <li>Author: Ricardo Santiago Araújo</li>
+                <li>Contact: <a href="mailto:ricardosa54@gmail.com"> ricardosa54@gmail.com</a></li>
+                <li><a href="https://ricardosantiagoaraujo.github.io/RSA-thesis-webpage/"><b>PhD website</b></a></li>
 
-		.div1 {
-			text-align: justify;
-			margin-left: 5%;
-			margin-right: 5%;
-			text-indent: 0
-		}
+            </ul>
+        </header>
+        <main>
 
+            <br><br>
+            <h1 class="main_title">
+                Preview of experiment pilots
+            </h1>
 
-		h1::before{
-			content:"";
-			background: url("img/Partner.expressions/ExpressionsF/CFD-WF-003-004-HO-Trans.png");
-			background-size: 200%;
-			background-position-y: -675px;
-			background-position-x: -575px;
-			position: absolute;
-			top: 0px;
-			right: 0px;
-			bottom: 0px;
-			left: 0px;
-			opacity: 0.25;
-			z-index: -1;
-		}
+            <div class="view_switch">
+                <p>Toggle to change view mode</p>
+                <label class="switch">
+                    <input id="view_switch" onclick="viewSwitch()" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+                <p id="view_mode"> Preview </p>
+            </div>
 
-		.main_title {
-			margin-left: 40px;
-			text-decoration: none;
-		}
+            <p class="exp_list">To view as simple list, <a href="https://ricardosantiagoaraujo.github.io/"><b>click here.</b></a></p>
 
-		ul {
-			font-weight: bold;
-			list-style-type: square;
-			color: rgb(0, 0, 48);
-		}
+            <div id="preview">
+                <div class="domain">
+                    <h2 class="domain_title">Experiment pilots in the domain of mate-choice </h2>
+                    <br>
+                        <div class="category">
+                            <h3 class="category_title">Abstracted social information </h3>
+                            <div class="flexbox">
+                                <a href="MC_V1/mate-choice.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with binary choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.mate.choiceV1.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.mate.choiceV1.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.mate.choiceV1.png';"
+                                    alt="Conformity in human mate-choice with binary choice V1">
+                                </a>
+                                <a href="MC_V1_S/mate-choiceV1_S.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with continuous choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.mate.choiceV1_S.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.mate.choiceV1_S.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.mate.choiceV1_S.png';"
+                                    alt="Conformity in human mate-choice with continuous choice V1">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3 class="category_title">Naturalistic social information </h3>
+                            <div class="flexbox">
+                                <a href="MC_V2/mate-choiceV2.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with binary choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.mate.choiceV2.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.mate.choiceV2.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.mate.choiceV2.png';"
+                                    alt="Conformity in human mate-choice with binary choice V2">
+                                </a>
+                                <a href="MC_V2_S/mate-choiceV2_S.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with continuous choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.mate.choiceV2_S.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.mate.choiceV2_S.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.mate.choiceV2_S.png';"
+                                    alt="Conformity in human mate-choice with continuous choice V2">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3 class="category_title">Social information on a scale </h3>
+                            <div class="flexbox">
+                                <a href="MC_V3/mate-choiceV3.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with continuous choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.mate.choiceV3.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.mate.choiceV3.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.mate.choiceV3.png';"
+                                    alt="Conformity in human mate-choice with continuous choice V3">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3 class="category_title">Descriptive social information </h3>
+                            <div class="flexbox">
+                                <a href="Profile_Conformity/profile.conformity.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with binary choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/profile.conformity.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/profile.conformity.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/profile.conformity.png';"
+                                    alt="Conformity in human mate-choice with continuous choice PROFILE">
+                                </a>
+                            </div>
+                        </div>
+                </div>
+                <div class="domain">
+                    <h2 class="domain_title">Experiment pilots in the domain of ratio estimation </h2>
+                    <br>
+                        <div class="category">
+                            <h3 class="category_title">Abstacted social information </h3>
+                            <div class="flexbox">
+                                <a href="OnlineGame-ColorEstimation.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with binary choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.ratio.estimation.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.ratio.estimation.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.ratio.estimation.png';"
+                                    alt="Conformity in human ratio estimation with binary choice">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3 class="category_title">Social information on a scale </h3>
+                            <div class="flexbox">
+                                <a href="ratio_estimation_conformityV3.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with continuous choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/conformity.ratio.estimationV3.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/conformity.ratio.estimationV3.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/conformity.ratio.estimationV3.png';"
+                                    alt="Conformity in human mate-choice with continuous choice">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="category">
+                            <h3 class="category_title">Ratio estimation accuracy</h3>
+                            <div class="flexbox">
+                                <a href="OnlineGame-ColorEstimation.html" class="experiment">
+                                    <div class="exp_title">Conformity in human mate-choice with continuous choice</div>
+                                    <img class="js_img" src="img/pilot_page_gifs/static/ratio.estimation.png"
+                                    onmouseenter="this.src ='img/pilot_page_gifs/active/ratio.estimation.gif';"
+                                    onmouseout="this.src = 'img/pilot_page_gifs/static/ratio.estimation.png';"
+                                    alt="Ratio estimation accuracy">
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
 
-		a:link {
-			text-decoration: none;
-		}
+            <div id="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <!-- <th scope="col"></th> -->
+                            <th scope="col">Mate choice</th>
+                            <th scope="col">Ratio estimation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- <th scope="row">1</th> -->
+                            <td><a href="MC_V1/mate-choice.html">Abstracted social information (binary choice)</a></td>
+                            <td><a href="ratio_estimation.html">Abstracted social information (binary choice)</a></td>
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">2</th> -->
+                            <td><a href="MC_V1_S/mate-choiceV1_S.html">Abstracted social information (continuous choice)</a></td>
+                            <td><a href="ratio_estimation_conformityV3.html">Social information on a scale (continuous choice)</a></td>
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">3</th> -->
+                            <td><a href="MC_V2/mate-choiceV2.html">Naturalistic social information (binary choice)</a></td>
+                            <td><a href="OnlineGame-ColorEstimation.html">Ratio estimation accuracy (continuous choice)</a></td>
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">4</th> -->
+                            <td><a href="MC_V2_S/mate-choiceV2_S.html">Naturalistic social information (continuous choice)</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">5</th> -->
+                            <td><a href="MC_V3/mate-choiceV3.html">Social information on a scale (continuous choice)</a></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <!-- <th scope="row">6</th> -->
+                            <td><a href="Profile_Conformity/profile.conformity.html">Descriptive social information (binary choice)</a></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-		a:hover {
-			color: rgb(175, 4, 90);
-			text-decoration: underline;
-		}
+            <div class="institutes">
+            <a href="https://edb.cnrs.fr/"><img class=edb_logo src="https://www.univ-tlse3.fr/medias/photo/logo-edb_1576487603148-png?ID_FICHE=1136458590592">
+            <a href="https://www.iast.fr/"> <img class=iast_logo src="https://fundit.fr/sites/default/files/actors/561-institute-advanced-study-toulouse-iast.png">
+            <a href="https://crca.cbi-toulouse.fr/"> <img class=crca_logo src="https://crca.cbi-toulouse.fr/wp-content/uploads/2018/07/LogoCRCA_PFT.png">
+            </div>
 
-		#update_warning {
-			color: red;
-			text-align: center;
-			margin: auto
-		}
-	</style>
-
-</head>
-
-<body>
-	<br>
-	<h1>
-		<a class = 'main_title' href="https://ricardosantiagoaraujo.github.io/RSA-webpage/">Index of Experiments</a>
-    </h1>
-	<p id="update_warning"> Grossly outdated version of the site ! Please <a href="https://ricardosantiagoaraujo.github.io/pilots_gif"><b>click here</b></a> to access updated page.</p>
-
-		<BLOCKQUOTE>
-			<p class = 'main'>Pilot experiments:</p>
-
-			<ul>
-
-				<li> <a href="MC_V1/mate-choice.html"> Mate choice experiment </a> </li>
-				<br>
-				<li> <strong> <a href="ratio_estimation.html"> Ratio estimation </a> </strong></li>
-				<br>
-				<li> <strong> <a href="OnlineGame-ColorEstimation.html"> Ratio estimation in a social context</a> </strong> </li>
-
-
-		</BLOCKQUOTE>
-
-
-		<BLOCKQUOTE>
-			<p class = 'main'>Bonus experiments :</p>
-			<ul>
-
-				<li> <strong> <a href="MC_V2/mate-choiceV2.html"> Mate choice experiment (Second version) </a> </strong> </li>
-				<br>
-				<li> <strong> <a href="MC_V1_S/mate-choiceV1_S.html"> Attractiveness judgement </a> </strong> </li>
-				<br>
-				<li> <strong> <a href="MC_V2_S/mate-choiceV2_S.html"> Attractiveness judgement (Second version) </a> </strong> </li>
-				<br>
-				<li> <strong> <a href="MC_V3/mate-choiceV3.html"> Attractiveness judgement (Third version) </a> </strong> </li>
-				<br>
-				<li> <strong> <a href="ratio_estimation_conformityV3.html"> Ratio estimation (Third version) </a> </strong> </li>
-				<br>
-				<li> <strong> <a href="Profile_Conformity/profile.conformity.html"> Profile rating </a> </strong> </li>
-		</BLOCKQUOTE>
-	</div>
-</body>
+        </main>
+        <footer>
+            <ul>
+                <li>Project in collaboration with: </li>
+                <li><a href="https://edb.cnrs.fr/"><b>EDB</b></a></li>
+                <li><a href="https://www.iast.fr/"><b>IAST</b></a></li>
+                <li><a href="https://crca.cbi-toulouse.fr/"><b>CRCA</b></a></li>
+            </ul>
+        </footer>
+    </body>
 
 </html>
