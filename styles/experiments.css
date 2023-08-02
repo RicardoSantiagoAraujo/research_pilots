@@ -1,0 +1,341 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {  /* asterisk(*) refers to all  */
+    font-family: "Noto Sans Mono";
+    font-family: "Noto Sans";
+}
+
+body{
+    background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url();
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+
+.title {
+    border: 6px solid gray;
+    border-radius: 25px;
+    background-color: white;
+    float: center;
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: x-large;
+    width: 40%;
+}
+
+.div1{
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 30px;
+    width:75%;
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding: 20px 45px 20px 50px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255,0.5);
+}
+
+.div1, #questionnaire{
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 30px;
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding: 20px 45px 20px 50px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255,0.5);
+}
+
+#consent,#questionnaire{
+    margin-top: 30px;
+}
+
+#questionnaire{
+    padding-top: 40px;
+}
+
+.div2 p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    width:50%;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255,0.5);
+}
+
+.title, .div1, .div2 p, .div2 li, .jspsych-content  {
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.div2 ul{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin: auto;
+    list-style-type: none;
+}
+
+.div2 li{
+    background-color: rgb(255,255,255,0.75);
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    color:black;
+    text-decoration: none;
+}
+
+.div2 li:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgb(196, 255, 196);
+}
+
+.div2 li a{
+    text-decoration: none;
+    color: black;
+    font-weight:bolder;
+}
+
+
+.mail {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style-type: none;
+    color: rgb(0, 0, 48);
+}
+
+
+
+a:hover {
+    color: rgb(175, 4, 90);
+    text-decoration: underline
+}
+
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+/*uso esta nova classe para aumentar a especificidade e sobrepor a regra no documento principal*/
+.justified {
+    text-align: justify;
+}
+
+#consent h1{
+    margin-top: 40px;
+    border-bottom:5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+#consent h3{
+    margin-top: 40px;
+    border-bottom:1px solid black;
+}
+
+#consent h2{
+    margin-top: 60px;
+    padding: 5px;
+    border-bottom:2px solid black;
+}
+
+.consentbox{
+    border: 3px solid gray;
+    border-radius: 100px;
+    background: rgb(202, 202, 202);
+    margin: 50px auto 15px;
+    padding: 0px;
+    text-align: center;
+    display: flex;
+    width: 35%;
+}
+
+
+.consentbox:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    background-color: rgb(196, 255, 196);
+    color:darkgreen
+}
+
+#consent_checkbox{
+    transform: scale(1.75);
+}
+
+#consent_checkbox:hover{
+    transform: scale(2);
+}
+
+
+.jspsych-survey-multi-select-question input{
+    transform: scale(1.5);
+    margin-right: 20px;
+}
+
+.jspsych-survey-multi-select-option:hover{
+    color:green;
+    font-weight: bold;
+}
+
+.agree {
+    margin:auto;
+    font-weight: bold;
+    padding-right:10px;
+}
+
+
+#start{
+    background-color: rgb(255,255,255,0.75);
+    padding: 20px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+    float: center;
+    margin: 50px auto -40px;
+    display: flex;
+}
+
+#start:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgb(196, 255, 196);
+}
+
+/* body {
+    padding: 25%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    } */
+select {
+    width: 50rem;
+    }
+.submit {
+    margin: 3rem;
+    }
+
+.invisible {
+    height: 0;
+    }
+.no-top-margin {
+    margin-top: -3rem;
+    }
+
+#questionnaire-form p{
+    background-color: white;
+    margin-top: 30px;
+}
+
+.sub-section {
+    margin-top: 3000px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: darkred;
+    border-top: 3px solid rgb(57, 57, 57);
+    padding-top: 30px;
+    }
+
+#age{
+text-align: center;
+/* width: 60px; */
+}
+#age:hover{
+    font-weight: bold;
+    }
+
+select:hover{
+    font-weight: bold;
+    transform: scale(1.01);
+}
+
+.btn-group{
+    display: flex;
+    text-align: center;
+    margin:0px 100px
+}
+
+.btn-group:hover{
+    transform: scale(1.01);
+}
+
+#questionnaireCompleted{
+    font-weight: bolder;
+    margin-top: -10px;
+}
+
+#questionnaireCompleted:hover{
+    transform: scale(1.1);
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgb(196, 255, 196);
+}
+
+.jspsych-content{
+    margin: auto;
+    width:75%;
+    text-indent: 20px;
+    background-color: rgba(255, 255, 255, 0.99);
+    padding: 20px 45px 30px 50px;
+    border-radius: 100px;
+    border: 2px solid rgb(255, 255, 255,0.5);
+}
+
+.jspsych-content button{
+    background-color: rgb(255,255,255,0.75);
+    padding: 10px;
+    border: 3px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    color:black;
+    font-weight: bolder;
+    margin: auto;
+    min-width: 100px;
+    margin-top: 15px;
+}
+
+.jspsych-content button:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+    background-color: rgb(196, 255, 196);
+}
+
+.jspsych-content #delayedText strong{
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}

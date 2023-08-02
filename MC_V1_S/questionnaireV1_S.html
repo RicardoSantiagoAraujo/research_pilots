@@ -3,29 +3,8 @@
 	<head>
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 			integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<style>
-			body {
-			padding: 25%;
-			padding-top: 1rem;
-			padding-bottom: 1rem;
-			}
-			select {
-			width: 50rem;
-			}
-			.submit {
-			margin: 3rem;
-			}
-			.sub-section {
-			font-size: 1.4rem;
-			font-weight: 700;
-			}
-			.invisible {
-			height: 0;
-			}
-			.no-top-margin {
-			margin-top: -3rem;
-			}
-		</style>
+		<link href="../styles/experiments.css" rel="stylesheet">
+		<meta name="author" content="Ricardo Santiago Araújo">
 	</head>
 	<body>
 		<div id="questionnaire" class="justified">
@@ -46,16 +25,17 @@
 				  // -------------------------------------------------------------------------------------
 				</script> -->
 			<form id="questionnaire-form">
-				<p>How old are you? </p>
-				I am <input type="number" placeholder="write here" id="age" class="required" name="age" min="10" max="120">
-				years old.
-				<br><br><br>
+				<div class="age_question">
+					<p>How old are you? </p>
+					I am <input type="number" placeholder="write here" id="age" class="required" name="age" min="10" max="120">
+					years old.
+				</div>
 				 <!--<p>What nationality are you? </p>
 				<div class="input-group mb-3">
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="nationalities" id="nationalities" class="custom-select dropdown required">
+					<select name="nationalities" id="nationalities" class="custom-select" dropdown required>
 						<option value="" id="Empty">Please select one</option>
 						<option value="afghan" id="Correct">Afghan</option>
 						<option value="albanian">Albanian</option>
@@ -257,7 +237,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select id="growin" name="growin" class="custom-select dropdown required">
+					<select id="growin" name="growin" class="custom-select" dropdown required>
 						<option value="">Please select one</option>
 						<option value="Afganistan">Afghanistan</option>
 						<option value="Albania">Albania</option>
@@ -512,7 +492,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select id="livein" name="livein" class="custom-select dropdown required">
+					<select id="livein" name="livein" class="custom-select" dropdown required>
 						<option value="">Please select one</option>
 						<option value="Afganistan">Afghanistan</option>
 						<option value="Albania">Albania</option>
@@ -776,7 +756,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="ethnicity" id="ethnicity" class="custom-select dropdown required
+					<select name="ethnicity" id="ethnicity" class="custom-select" dropdown required
 					onchange="loadQuestionnaire(event)">
 					<option value="">Please select one</option>
 					<option value="asian">Asian</option>
@@ -801,7 +781,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="english" id="english" class="custom-select dropdown required">
+					<select name="english" id="english" class="custom-select" dropdown required>
 						<option value="">Please select one</option>
 						<option value="native">Native Speaker</option>
 						<option value="fluent">Fluent</option>
@@ -825,7 +805,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="education" id="education" class="custom-select dropdown required
+					<select name="education" id="education" class="custom-select" dropdown required
 					onchange="loadQuestionnaire(event)">
 					<option value="">Please select one</option>
 					<option value="edu0">No schooling completed</option>
@@ -847,9 +827,9 @@
 						<span class="input-group-text">Specify</span>
 					</div>
 					<input type="text" class="form-control optional" placeholder="Specify here" aria-label="education"
-						id="educationOther"">
+						id="educationOther">
 				</div>
-				<p>How physically attractive do you think you are, relative to others ?</p>
+				<p>How physically attractive do you think you are, relative to others?</p>
 				<div class=" btn-group btn-group-toggle" data-toggle="buttons">
 					<label class="btn btn-secondary active">
 					<input type="radio" class="likert-atractive" name="attractive" autocomplete="off" value="1" checked /> 1
@@ -921,7 +901,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="orientation" id="orientation" class="custom-select dropdown required
+					<select name="orientation" id="orientation" class="custom-select" dropdown required
 					onchange="loadQuestionnaire(event)">
 					<option value="">Please select one</option>
 					<option value="heterosexual">Heterosexual</option>
@@ -953,7 +933,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="relationship" id="relationship" class="custom-select dropdown required
+					<select name="relationship" id="relationship" class="custom-select" dropdown required
 					onchange="loadQuestionnaire(event)">
 					<option value="">Please select one</option>
 					<option value="rel1">Single and never married</option>
@@ -981,7 +961,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="living" id="living" class="custom-select dropdown required
+					<select name="living" id="living" class="custom-select" dropdown required
 					onchange="loadQuestionnaire(event)">
 					<option value="">Please select one</option>
 					<option value="liv1">Living alone</option>
@@ -995,7 +975,7 @@
 					<option value="Other">Other (Please specify)</option>
 					</select>
 				</div>
-				
+
 				<div class="input-group mb-3 invisible" id="living-other">
 					<div class="input-group-prepend">
 						<span class="input-group-text">Specify</span>
@@ -1009,7 +989,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="onlinedating" id="onlinedating" class="custom-select dropdown required">
+					<select name="onlinedating" id="onlinedating" class="custom-select" dropdown required>
 						<option value="">Please select one</option>
 						<option value="yes">Yes</option>
 						<option value="no">No</option>
@@ -1022,7 +1002,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="contraceptive" id="contraceptive" class="custom-select dropdown"
+					<select name="contraceptive" id="contraceptive" class="custom-select" dropdown
 						onchange="loadQuestionnaire(event)">
 						<option value="">Please select one</option>
 						<option value="no">I am not currently using an hormonal contraceptive</option>
@@ -1052,7 +1032,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="menstruation" id="menstruation" class="custom-select dropdown"
+					<select name="menstruation" id="menstruation" class="custom-select" dropdown
 						onchange="loadQuestionnaire(event)">
 						<option value="">Please select one</option>
 						<option value="3d">Within the last three days</option>
@@ -1079,7 +1059,7 @@
 					<div class="input-group-prepend">
 						<label class="input-group-text" for="inputGroupSelect01">Options</label>
 					</div>
-					<select name="pregnancy" id="pregnancy" class="custom-select dropdown ">
+					<select name="pregnancy" id="pregnancy" class="custom-select" dropdown>
 						<option value="">Please select one</option>
 						<option value="yes">Yes</option>
 						<option value="no">No</option>

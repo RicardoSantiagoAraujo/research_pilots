@@ -30,7 +30,8 @@
 		crossorigin="anonymous"></script>
 	<script src="data/ratio_conformity.js"></script>
 	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
-	</link>
+	<link href="styles/experiments.css" rel="stylesheet">
+	<meta name="author" content="Ricardo Santiago Araújo">
 
 	<script>
 		/* Trying to set a delay but its not working correctly
@@ -54,15 +55,15 @@
 		.votesG {
 			border: 3px solid #0088FF;
 			width: 48%;
-			border-radius: 10px; 
-    		overflow: hidden; 
+			border-radius: 10px;
+    		overflow: hidden;
 		}
 
 		.votesR {
 			border: 3px solid #ff7700;
 			width: 48%;
-			border-radius: 10px; 
-    		overflow: hidden; 
+			border-radius: 10px;
+    		overflow: hidden;
 		}
 
 		.green {
@@ -117,10 +118,10 @@
 	//Instructions
 	var Instructions1 = {
 		type: 'html-button-response',
-		stimulus: `<h3> Instructions </h3> 
-		 	<p class="leftallign">  In this section of the study, you will be shown screens full of <span class="green"><strong>blue</strong></span> and <span class="red"><strong>orange</strong></span> dots in a fictional online multiplayer game. We would like you to behave as you would if you were playing a real multiplayer game with  real users and make choices accordingly. 
-			<br> You will be asked <strong>which color appears more frequently on each screen</strong>. You will also be able to see input from the other users of the game. Answers from other players are represented by the icon below: 
-			</p> <img src="img/MALEgrey.png" height= 80 ></img> <br> 
+		stimulus: `<h3> Instructions </h3>
+		 	<p class="leftallign">  In this section of the study, you will be shown screens full of <span class="green"><strong>blue</strong></span> and <span class="red"><strong>orange</strong></span> dots in a fictional online multiplayer game. We would like you to behave as you would if you were playing a real multiplayer game with  real users and make choices accordingly.
+			<br> You will be asked <strong>which color appears more frequently on each screen</strong>. You will also be able to see input from the other users of the game. Answers from other players are represented by the icon below:
+			</p> <img src="img/MALEgrey.png" height= 80 ></img> <br>
 			<p class="leftallign"> To pick <span class="green">blue</span> press your <strong>left arrow key</strong> and to pick <span class="red">orange</span> press your <strong>right arrow key</strong>.
 			</p> <img src="img/keyboard.png" height= 160 ></img>	 <br>
 			 <br>
@@ -129,7 +130,7 @@
 	}
 	timeline.push(Instructions1)
 
-	
+
 	// Example
 	var demo1 = {
 		type: 'html-button-response',
@@ -159,7 +160,7 @@
 		button_html: '<button class="jspsych-btn">%choice%!</button>'
 	}
 	timeline.push(Countdown);
-	
+
 
 
 
@@ -221,23 +222,23 @@
 		},
 	};
 	timeline.push(Feedback);
-	
+
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
 	//The End
 	timeline.push({
   type: 'html-keyboard-response',
-  stimulus: 'Thank you for your feedback. <strong>Press any key</strong> to finish.'
+  stimulus: 'Thank you for your feedback. <strong>Press any key</strong> to submit your data. You may then close this page.'
 	});
 
 	//Exit fullscreen
 	timeline.push({
 		type: "fullscreen",
 		fullscreen_mode: false,
-		message: "Thank you for your feedback. <strong>Press any key</strong> to finish."
-	});	
-	
-	
+		message: "Thank you for your feedback. <strong>Press any key</strong> to submit your data. You may then close this page."
+	});
+
+
 
 
 	/* start the experiment (and save to database) */

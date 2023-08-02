@@ -2,24 +2,8 @@
 <html>
 
 <head>
-	<style>
-		body {
-			background-color: white;
-		}
-
-		h1 {
-			color: black;
-		}
-
-		p {
-			color: black;
-		}
-
-		/*uso esta nova classe para aumentar a especificidade e sobrepor a regra no documento principal*/
-		.justified {
-			text-align: justify;
-		}
-	</style>
+	<link href="../styles/experiments.css" rel="stylesheet">
+	<meta name="author" content="Ricardo Santiago Araújo">
 </head>
 
 <body>
@@ -69,7 +53,7 @@
 		<ol>
 			<li>I confirm that I have read and understand the subject information provided for this study.</li>
 			<li>I understand that my participation in this research is entirely voluntary and that I have the right to
-				withdraw 
+				withdraw
 				from the study at any point before completion of the experiment, without having to give a reason, by simply closing this web page.</li>
 			<li>I understand and acknowledge that the investigation is designed to promote scientific knowledge and that
 				the data I provide will be used for no purpose other than research.</li>
@@ -77,11 +61,13 @@
 			<li>I understand and consent to my responses being recorded and stored in a database.</li>
 			<li>I understand that taking part in this study comes with no particular benefits or risks for me.</li>
 			<li>I consent to being asked sensitive questions about my sexual behavior.</li>
+		</ol>
+		<div class="consentbox">
 			<p>
 				<input type="checkbox" id="consent_checkbox" />
-				I agree to take part in this study.
+				<div class="agree">I agree to take part in this study.</div>
 			</p>
-
+		</div>
 	</div>
 
 	<button type="button" id="start">Start Experiment</button>

@@ -32,7 +32,8 @@
 	<script src="data/gender.js"></script>
 	<script src="data/ratio_conformityV3.js"></script>
 	<link href="jspsych-6.1.0/css/jspsych.css" rel="stylesheet" type="text/css">
-	</link>
+	<link href="styles/experiments.css" rel="stylesheet">
+	<meta name="author" content="Ricardo Santiago Araújo">
 
 	<script>
 		/* Trying to set a delay but its not working correctly
@@ -49,12 +50,12 @@
 
 
 	<style>
-		
+
 		.leftallign {
 			text-align: justify
 		}
 		.ratio {
-			width: 60%; 
+			width: 60%;
 			float: left;
 		}
 		.Focus {
@@ -79,7 +80,7 @@
 		.htmlSliderResponse2{
 			float:right;
 			width: 40%;
-			
+
 		}
 
 		input[type='range'] {
@@ -134,7 +135,7 @@
 		background-color: #666;
 		}
 
-		
+
 		.greendot{
 			color: #0088FF;
 		}
@@ -449,7 +450,7 @@
 	//Explanation
 	var Debriefing = {
 		type: 'html-button-response',
-		stimulus: `<h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of ${oppositeGender} faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <strong> ricardo.santiago-araujo@univ-tlse3.fr </strong> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>`,
+		stimulus: `<h4> This is the end of this experiment. </h4> <br> <p class='leftallign' >The goal of this study was to determine the effect of social information on human mate choice. In this experiment, you were shown pairs of ${oppositeGender} faces of similar attractiveness and asked to pick the most attractive one. At the same time, you were provided social information in the form of a vote tally from fictional voters. By comparing your votes with those of other participants without such information, we can calculate the effect of social information in mate choice. <br> Your participation is greatly appreciated! If you have any questions about this study or would like to be updated about the study's results, please contact us. The name and email address of the main researcher in this project is listed below: </p> Ricardo Santiago Araújo - <a class=mail href="mailto:ricardo.santiago-araujo@univ-tlse3.fr">ricardo.santiago-araujo@univ-tlse3.fr</a> <p class='leftallign'> Finally, we urge you not to discuss this study with anyone else who is currently participating or might participate in the future. As you can certainly appreciate, prior knowledge of the nature of this study would influence the behavior of participants and thus negatively affect the validity of the data.</p>`,
 		choices: ['Click here to finish']
 	}
 	//timeline.push(Debriefing);
@@ -471,13 +472,13 @@
 	timeline.push({
 		type: "fullscreen",
 		fullscreen_mode: false,
-		message: "Thank you for your feedback. <strong>Press any key</strong> to finish."
+		message: "Thank you for your feedback. <strong>Press any key</strong> to submit your data. You may then close this page."
 	});
-	
+
 	//The End
 	timeline.push({
   type: 'html-keyboard-response',
-  stimulus: 'Thank you for your feedback. <strong>Press any key</strong> to finish.'
+  stimulus: 'Thank you for your feedback. <strong>Press any key</strong> to submit your data. You may then close this page.'
 });
 
 	/* start the experiment */
