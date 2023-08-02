@@ -7,6 +7,11 @@
     font-family: "Noto Sans";
 }
 
+
+html{
+    min-height: 100%;
+}
+
 body, main{
     height: 100%;
     width: auto;
@@ -14,6 +19,7 @@ body, main{
     padding: 0px;
     min-height: 100vh;
   }
+
 
 
 body{
@@ -220,6 +226,7 @@ table tbody tr:last-of-type {
     position:absolute;
     bottom:0;
     vertical-align: bottom;
+    position: fixed;
 }
 
 .institutes img{
