@@ -24,6 +24,7 @@ body, main{
 
 body{
     background-image:  linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url();
+    height: 100vh;
 }
 
 
@@ -53,7 +54,7 @@ a {
     margin-bottom: 12%;
 }
 
-#preview a:hover {
+#preview a:hover, .experiment:hover {
     color: rgb(75, 75, 75);
     background-color: rgb(0, 255, 0, 0.1);
 }
@@ -63,6 +64,13 @@ a {
     transform:scale(1.01);
     background-color: rgb(0, 255, 0, 0.1);
 }
+
+#table .empty:hover {
+    /* font-weight: bold; */
+    transform:scale(1.01);
+    background-color: rgba(255, 0, 0, 0.1);
+}
+
 
 
 .main_title, .domain, .domain_title, .category{
@@ -128,40 +136,47 @@ a {
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 50px;
     background-color: rgb(255, 255, 255,0.25);
-    margin:20px auto 25px;
+    margin:20px 0.5% 25px;
     width: auto;
+    height: 55h;
     display: inline-block;
     overflow: hidden;
+    position: relative;
 }
 
 .flexbox{
     /* border: 2px solid rgb(255, 255, 255, 0.5); */
     border-radius: 20px;
-    background-color: rgb(255,255,255,0.5);
+    background-color: rgb(200,200,200,1);
     width: auto;
-    margin:auto;
+    height: 55vh;
     display: flex;
     justify-content: space-around;
 }
 
+
 .exp_title{
     padding: 2% 0 0.5%;
-    width:45vw;
+    width:auto;
+    margin: auto;
+    border-radius: 50px;
     font-weight: bold;
+    position: relative;
+    z-index: 10;
+    /* background-color: rgb(200, 200, 200, 1); */
 }
 
 .experiment{
-    width: auto;
-    height: 370px;
-    margin: 0 1% 0;
+    width: 45vw;
+    height: 55vh;
     position:relative;
 }
 
 .js_img{
-    width: 38vw;
+    height:40vh;
     border-radius: 10px;
     position: absolute;
-    top: -9960px;
+    top: -9999px;
     bottom: -9999px;
     left: -9999px;
     right: -9999px;
@@ -170,7 +185,7 @@ a {
 }
 
 .js_img:hover{
-    transform: scale(1.025);
+    transform: scale(1.1)translateY(10px);
   }
 
 #table{
@@ -186,16 +201,31 @@ table{
     background-color: white;
     border-collapse: collapse;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    /* table-layout: fixed;
+    width:90% */
 }
 
 table thead tr {
     background-color: #2196F3;
     color: #ffffff;
     text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+
+table thead tr th{
+    height: 1cm;
+}
+
+table thead tr th:hover{
+    color: yellow;
 }
 
 table th, table td {
-    padding: 3px 15px;
+    padding: 2vh 2vw;
+    width: 25vw;
+    height: 3.5vh;
 }
 
 table tbody tr {
@@ -210,12 +240,18 @@ table tbody tr:last-of-type {
     border-bottom: 2px solid #009879;
 }
 
+td:nth-child(2):hover {
+    background-color: rgba(255, 255, 0, 0.123);
+    transform: 1.1;
+}
+
+
  main{
     position: relative;
 }
 
 
-.institutes{
+.institutes1{
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     justify-content: space-around;
@@ -223,18 +259,30 @@ table tbody tr:last-of-type {
     margin: 0px auto 0px;
     padding: 10px 0 30px 0;
     align-items:center;
-    position:absolute;
+    position:relative;
     bottom:0;
     vertical-align: bottom;
-    position: fixed;
 }
 
-.institutes img{
-    transition: transform .2s;
+.institutes2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    margin: 0px auto;
+    padding: 10px 0px 30px;
 }
 
-.institutes img:hover{
+.institutes2 a{
+margin: 0 180px;
+}
+
+
+.institutes1 img:hover, .institutes2 img:hover{
     transform: scale(1.1);
+    transition: transform .2s;
   }
 
 .iast_logo{
