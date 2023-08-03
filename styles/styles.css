@@ -215,7 +215,7 @@ table thead tr {
 }
 
 table thead tr th{
-    height: 1cm;
+    height: 3.5vh;
 }
 
 table thead tr th:hover{
@@ -223,9 +223,9 @@ table thead tr th:hover{
 }
 
 table th, table td {
-    padding: 2vh 2vw;
+    padding: 1vh 2vw;
     width: 25vw;
-    height: 3.5vh;
+    height: 1vh;
 }
 
 table tbody tr {
