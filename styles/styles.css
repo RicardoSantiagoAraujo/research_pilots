@@ -5,6 +5,7 @@
 * {  /* asterisk(*) refers to all  */
     font-family: "Noto Sans Mono";
     font-family: "Noto Sans";
+    font-size: 1.3vw;
 }
 
 
@@ -87,7 +88,7 @@ a {
     padding: 2px;
     margin: 0px auto 10px;
     text-align: center;
-    font-size: x-large;
+    font-size: 2.5vw;
 }
 
 .view_switch{
@@ -98,9 +99,10 @@ a {
     width:35%;
     margin:auto;
     border-radius: 10px;
+    text-align: center;
   }
 
-  #view_mode{
+#view_mode{
     width: 80px;
     text-align: center;
   }
@@ -116,6 +118,8 @@ a {
     padding: 1px 10px 1px;
     text-align: center;
     display: inline-block;
+
+    font-size: 1.75vw;
 }
 
 .domain{
@@ -173,7 +177,8 @@ a {
 }
 
 .js_img{
-    height:40vh;
+    /* height:40vh; */
+    width: 30vw;
     border-radius: 10px;
     position: absolute;
     top: -9999px;
@@ -224,7 +229,7 @@ table thead tr th:hover{
 
 table th, table td {
     padding: 1vh 2vw;
-    width: 25vw;
+    width: 40vw;
     height: 1vh;
 }
 
