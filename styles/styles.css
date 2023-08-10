@@ -46,6 +46,14 @@ header {
     margin: auto;
 }
 
+.intro_text{
+    width: 80%;
+    padding: 1vw;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin:5vh auto 5vh;
+}
 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -176,6 +184,18 @@ a {
     position:relative;
 }
 
+.exp_pilot{
+    border:3px dotted  rgba(0, 128, 0, 1);
+    font-weight: bold;
+    background-color:  rgba(0, 128, 0, 0.125);
+}
+
+.exp_proto{
+    border:3px dotted rgba(255, 81, 0, 1);
+    font-weight: bold;
+    background-color:  rgba(255, 81, 0, 0.125);
+}
+
 .js_img{
     /* height:40vh; */
     width: 30vw;
@@ -198,9 +218,10 @@ a {
 }
 
 table{
+    width:85vw;
     margin:  auto ;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
